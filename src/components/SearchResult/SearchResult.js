@@ -4,7 +4,7 @@ import styles from './SearchResult.module.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const SearchResult = () => ( 
@@ -14,15 +14,18 @@ const SearchResult = () => (
   <div class="row">
     <div className={styles.innerDiv}>
       <span className={styles.sharingButton}>
-      <FontAwesomeIcon icon="fa-solid fa-share-nodes" />
+      <FontAwesomeIcon icon={["fas", "share-nodes"]} />
       </span>
       <span className={styles.sharingButton}>
       <FontAwesomeIcon icon="fa-solid fa-heart" />
       </span>
+      <h2>What is PaaS</h2>
+      <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon3">services</span>
+  </div>
+</div>
   </div>
   </div>
-  </div>
-
   </div>
 );
 SearchResult.propTypes = {};
