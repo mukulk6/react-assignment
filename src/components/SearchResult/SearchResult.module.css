@@ -1,0 +1,31 @@
+.SearchResult {
+
+}
+
+.searchOutline
+{
+    width:100%;
+    margin-top:0px;
+    border:2px solid rgba(255,165,0,0.43);
+    box-shadow:0px 0px 25px rgb(0 0 0 / 10%);
+    position:relative;
+    margin-bottom:20px;
+    padding:10px 30px 10px 40px;
+    background:#fff;
+    
+}
+
+.innerDiv
+{
+    font-size: 16px;
+    text-align: right;
+}
+
+.sharingButton
+{
+    padding: 3px 6px;
+    font-size: 16px;
+    margin-right: 5px;
+    color: #d3d3d3;
+    cursor: pointer;
+}
