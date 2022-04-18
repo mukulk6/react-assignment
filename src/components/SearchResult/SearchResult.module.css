@@ -26,6 +26,15 @@
     padding: 3px 6px;
     font-size: 16px;
     margin-right: 5px;
-    color: #d3d3d3;
+    color: black;
     cursor: pointer;
+}
+
+.sharingButton fa 
+{
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
 }

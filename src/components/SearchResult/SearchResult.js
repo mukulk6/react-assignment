@@ -14,7 +14,10 @@ const SearchResult = () => (
   <div class="row">
     <div className={styles.innerDiv}>
       <span className={styles.sharingButton}>
-        <FontAwesomeIcon icon icon="share"></FontAwesomeIcon>
+      <FontAwesomeIcon icon="fa-solid fa-share-nodes" />
+      </span>
+      <span className={styles.sharingButton}>
+      <FontAwesomeIcon icon="fa-solid fa-heart" />
       </span>
   </div>
   </div>
