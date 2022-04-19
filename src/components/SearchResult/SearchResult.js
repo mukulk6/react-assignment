@@ -32,10 +32,14 @@ const SearchResult = () => (
 </div>
 <div class="col-md-12">
   <div className={styles.answerDiv}>
+    <div className={styles.expertInfo}>
   <img class="rounded-circle" alt="40x40" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
           data-holder-rendered="true"></img>
   <div class={styles.userInfo}>
-  
+  <span className={styles.userName}>
+      Tejal Kunjir
+  </span>
+  </div>
   </div>
   </div>
 </div>

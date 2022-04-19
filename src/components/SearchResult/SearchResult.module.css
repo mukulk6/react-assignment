@@ -97,10 +97,13 @@
     border: 1px solid #ececec;
     border-radius: 5px;
     margin-bottom: 5px;
-    padding:0px;
     height:65px;
 }
 
+.expertInfo
+{
+    padding:10px;
+}
 .userInfo
 {
     margin-left: 55px;
@@ -112,4 +115,13 @@ img
     width:40px;
     height:40px;
     float: left;
+    border-radius: 50%;
+}
+
+.userName
+{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', 'Lato', sans-serif;
+    float:left;
 }
