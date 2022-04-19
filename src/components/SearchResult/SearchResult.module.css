@@ -66,9 +66,27 @@
     font-family: 'Poppins', 'Lato', sans-serif;
     color: #949494;
     font-size: 12px !important;
+    font-weight: normal;
+    margin-bottom: 3px;
 }
 
 .input-group-text
 {
     margin-bottom: 4px !important;
+}
+
+.label
+{
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+    background-color: #4BCAFF;
+    margin:2px;
 }

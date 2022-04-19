@@ -25,7 +25,9 @@ const SearchResult = () => (
   </div>
 </div>
 <div className={styles.tagDomain}>
-  <h3>Domain <span class="label">Terms & Conditions</span></h3>
+  <h3>Domain<span className={styles.label}>Terms & Conditions</span></h3>
+</div>
+<div class="col-md-12">
   
 </div>
   </div>
