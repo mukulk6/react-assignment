@@ -6,8 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+const current = new Date();
+const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
 
 const SearchResult = () => ( 
+ 
     
      <div class="container">
   <div className={styles.searchOutline}>
@@ -28,7 +31,13 @@ const SearchResult = () => (
   <h3>Domain<span className={styles.label}>Terms & Conditions</span></h3>
 </div>
 <div class="col-md-12">
+  <div className={styles.answerDiv}>
+  <img class="rounded-circle" alt="40x40" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+          data-holder-rendered="true"></img>
+  <div class={styles.userInfo}>
   
+  </div>
+  </div>
 </div>
   </div>
   </div>
