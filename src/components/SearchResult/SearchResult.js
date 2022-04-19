@@ -19,7 +19,7 @@ const SearchResult = () => (
       <span className={styles.sharingButton}>
       <FontAwesomeIcon icon="fa-solid fa-heart" />
       </span>
-      <h2>What is PaaS</h2>
+      <h2 className={styles.headTitle}>What is PaaS</h2>
       <div class="input-group-prepend">
     <span class="input-group-text" id="basic-addon3">services</span>
   </div>
