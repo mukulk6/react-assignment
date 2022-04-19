@@ -24,6 +24,10 @@ const SearchResult = () => (
     <span class="input-group-text" id="basic-addon3">services</span>
   </div>
 </div>
+<div className={styles.tagDomain}>
+  <h3>Domain <span class="label">Terms & Conditions</span></h3>
+  
+</div>
   </div>
   </div>
   </div>

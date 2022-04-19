@@ -1,7 +1,3 @@
-.SearchResult {
-
-}
-
 .searchOutline
 {
     width:100%;
@@ -57,4 +53,22 @@
     margin: 5px 0px;
     padding: 10px;
     border-radius: 5px;
+}
+
+.tagDomain 
+{
+   margin-top: 3px !important;
+    text-align: left; 
+}
+
+.tagDomain h3
+{
+    font-family: 'Poppins', 'Lato', sans-serif;
+    color: #949494;
+    font-size: 12px !important;
+}
+
+.input-group-text
+{
+    margin-bottom: 4px !important;
 }
