@@ -33,13 +33,16 @@ const SearchResult = () => (
 <div class="col-md-12">
   <div className={styles.answerDiv}>
     <div className={styles.expertInfo}>
-  <img class="rounded-circle" alt="40x40" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg"
+  <img class="rounded-circle" alt="40x40" src="images/sample.jpg"
           data-holder-rendered="true"></img>
   <div class={styles.userInfo}>
   <span className={styles.userName}>
       Tejal Kunjir
   </span>
   </div>
+  <span className={styles.userScore}>
+  <FontAwesomeIcon icon="fa-solid fa-award" />
+  </span>
   </div>
   </div>
 </div>
