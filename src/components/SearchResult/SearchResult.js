@@ -5,14 +5,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import ImageSrc from '.../images';
+
+
 
 const current = new Date();
 const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
 
 const SearchResult = () => ( 
- 
-    
      <div class="container">
   <div className={styles.searchOutline}>
   <div class="row">
@@ -28,18 +27,31 @@ const SearchResult = () => (
     <span class="input-group-text" id="basic-addon3">services</span>
   </div>
 </div>
+<div class="row">
+  <div class="col-md-2">
 <div className={styles.tagDomain}>
   <h3>Domain<span className={styles.label}>Terms & Conditions</span></h3>
+</div>
+</div>
+<div class="col-md-2">
+<div className={styles.tagsinQue}>
+  <h3>Tags:<span className={styles.tagLabel}>testing</span><span className={styles.tagLabel}>black-box</span></h3>
+</div>
+</div>
 </div>
 <div class="col-md-12">
   <div className={styles.answerDiv}>
     <div className={styles.expertInfo}>
-  <img class="rounded-circle" alt="40x40" src="images/sample.jpg"
+  <img class="rounded-circle" alt="40x40" src={'../../images/sample.jpg'}
           data-holder-rendered="true"></img>
   <div class={styles.userInfo}>
   <span className={styles.userName}>
       Tejal Kunjir
   </span>
+  </div>
+  <div className={styles.answeredInfo}>
+    <span>Answered</span>
+    <span>{date}</span>
   </div>
   <span className={styles.userScore}>
   <FontAwesomeIcon icon="fa-solid fa-award" />

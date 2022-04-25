@@ -130,3 +130,45 @@ img
 {
     
 }
+
+.tagsinQue h3
+{
+    font-family: 'Poppins', 'Lato', sans-serif;
+    color: #949494;
+    font-size: 12px !important;
+    font-weight: normal;
+    margin-bottom: 8px;
+    float: left;
+    margin-left: -15px;
+    margin-top: 4px;
+}
+
+.tagLabel
+{
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+
+.tagsinQue span
+{
+    background-color: #aaa;
+    font-weight: 400;
+    margin:1.2px;
+}
+
+.answeredInfo span
+{
+    color: #949494;
+    font-size: 12px;
+    font-family: 'Poppins', 'Lato', sans-serif;
+    padding:5px;
+    font-weight:normal;
+}
