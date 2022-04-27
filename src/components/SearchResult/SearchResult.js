@@ -10,7 +10,7 @@ import moment from 'moment';
 
 
 
-const date= moment().format('MMMM Do YYYY');
+const date= moment().format('LL');
 
 const SearchResult = () => ( 
      <div class="container">
