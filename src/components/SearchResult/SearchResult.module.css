@@ -97,7 +97,6 @@
     border: 1px solid #ececec;
     border-radius: 5px;
     margin-bottom: 5px;
-    height:65px;
 }
 
 .expertInfo
@@ -166,10 +165,34 @@ img
 
 .answeredInfo span
 {
+     float: left;
     color: #949494;
     font-size: 12px;
     font-family: 'Poppins', 'Lato', sans-serif;
     padding:3px;
     font-weight:normal;
-    float:left;
+}
+
+ .paste span
+{
+    float: right;
+    color: #777;
+}
+
+.sharingButton, .heartButton
+{
+    color: #D3D3D3;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.reqImg
+{
+    width: 40px;
+    height:25px;
+}
+
+.answerBlock p
+{
+    font-size: 14px;
 }
