@@ -8,7 +8,7 @@ import  { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
 import moment from 'moment';
 
 const date= moment().format('MMM DD, YYYY');
-const text = '<p>Cisco and Pure Storage deliver FlashStack, a modern converged infrastructure (CI) solution that is smarter, simpler, smaller -and more efficient than ever before. FlashStack is virtual machine-aware and hybrid cloud-ready, while retaining the predictability and efficiency advantages of dedicated compute and storage tiers. With FlashStack customers can modernize their operational model, stay ahead of business demands, and protect and secure their applications and data, regardless of the deployment model on premises, at the edge, or in the cloud. THE FLASHSTACK ADVANTAGE • Simple no trade-off architecture eliminates disparate hardware silos. Proven, validated inter-operability and for confident application deployment. Infrastructure for both traditional and converged operating models so you can consolidate operations at your pace • Converged infrastructure for multi-hypervisor, bare metal or container deployments.Built for the cloud, including full integration with cloud platforms from Cisco, VMware, OpenStack and othersAnswered</p>';
+/*const text = '<p>Cisco and Pure Storage deliver FlashStack, a modern converged infrastructure (CI) solution that is smarter, simpler, smaller -and more efficient than ever before. FlashStack is virtual machine-aware and hybrid cloud-ready, while retaining the predictability and efficiency advantages of dedicated compute and storage tiers. With FlashStack customers can modernize their operational model, stay ahead of business demands, and protect and secure their applications and data, regardless of the deployment model on premises, at the edge, or in the cloud. THE FLASHSTACK ADVANTAGE • Simple no trade-off architecture eliminates disparate hardware silos. Proven, validated inter-operability and for confident application deployment. Infrastructure for both traditional and converged operating models so you can consolidate operations at your pace • Converged infrastructure for multi-hypervisor, bare metal or container deployments.Built for the cloud, including full integration with cloud platforms from Cisco, VMware, OpenStack and othersAnswered</p>';*/
 
 const SearchResult = () => ( 
     <div class="container">
@@ -41,7 +41,7 @@ const SearchResult = () => (
 <div class="col-md-12">
 <div className={styles.answerDiv}>
   <div className={styles.expertInfo}>
-<img class="rounded-circle" alt="40x40" src={'../../images/sample.jpg'}
+<img class="rounded-circle" alt="40x40" src={require('../../images/sample.jpg')}
         data-holder-rendered="true"></img>
         <div class="row">
 <div class={styles.userInfo}>
@@ -50,7 +50,7 @@ const SearchResult = () => (
 </span>
 <div className={styles.paste}>
 <span className={styles.reqImg}>
-      <img src={require('../images/help-support.jpg')}></img>
+      <img src={require('../../images/help-support.jpg')} className={styles.updateIconimg}></img>
     </span>
 <span> 
   <i class="fa-solid fa-paste"></i>
