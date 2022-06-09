@@ -8,10 +8,10 @@ import  { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
 import moment from 'moment';
 
 const date= moment().format('MMM DD, YYYY');
-const answer = 'Cisco and Pure Storage deliver FlashStack, a modern converged infrastructure (CI) solution that is smarter, simpler, smaller -and more efficient than ever before. FlashStack is virtual machine-aware and hybrid cloud-ready, while retaining the predictability and efficiency advantages of dedicated compute and storage tiers. With FlashStack customers can modernize their operational model, stay ahead of business demands, and protect and secure their applications and data, regardless of the deployment model on premises, at the edge, or in the cloud. THE FLASHSTACK ADVANTAGE • Simple no trade-off architecture eliminates disparate hardware silos. Proven, validated inter-operability and for confident application deployment. Infrastructure for both traditional and converged operating models so you can consolidate operations at your pace • Converged infrastructure for multi-hypervisor, bare metal or container deployments.Built for the cloud, including full integration with cloud platforms from Cisco, VMware, OpenStack and othersAnswered';
 
-const SearchResult = (props) => ( 
-    <div class="container">
+
+const SearchResult = (props)=>{
+<div class="container">
 <div className={styles.searchOutline}>
 <div class="row">
   <div className={styles.innerDiv}>
@@ -21,7 +21,7 @@ const SearchResult = (props) => (
     <span className={styles.heartButton}>
     <i class="fa-solid fa-heart"></i>
     </span>
-    <h2 className={styles.headTitle}>What is PaaS</h2>
+    <h2 className={styles.headTitle}>{props.data.question}</h2>
     <div class="input-group-prepend">
   <span class="input-group-text" id="basic-addon3">services</span>
 </div>
@@ -29,7 +29,7 @@ const SearchResult = (props) => (
 <div class="row">
 <div class="col-md-2">
 <div className={styles.tagDomain}>
-<h3>Domain<span className={styles.label}>Terms & Conditions</span></h3>
+<h3>Domain<span className={styles.label}>{props.data.domain}</span></h3>
 </div>
 </div>
 <div class="col-md-2">
@@ -72,7 +72,7 @@ const SearchResult = (props) => (
   
             <div class='row'>
               <div className={styles.answerBlock}>
-    <p>{answer}</p>
+      <p>{props.data.answerText}</p>
   </div>
 </div>
 </div>
@@ -82,7 +82,7 @@ const SearchResult = (props) => (
 </div>
 </div>
 </div>
-);
+}
 SearchResult.propTypes = {};
 
 SearchResult.defaultProps = {};
