@@ -7,8 +7,14 @@ function App() {
   return(
     <div className="App">    
       {
-            Data.map((postData)=>{ return<SearchResult data={postData}/>})   
-      }
+            Data.map((postData, index)=>{ 
+              return(
+                <div key={index}>
+            <SearchResult data={postData}/>
+            </div>
+              )
+            })
+          }   
     </div>
   )
 }

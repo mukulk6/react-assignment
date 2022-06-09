@@ -21,7 +21,7 @@ const SearchResult = (props)=>{
     <span className={styles.heartButton}>
     <i class="fa-solid fa-heart"></i>
     </span>
-    <h2 className={styles.headTitle}>{props.data.question}</h2>
+    <h2 className={styles.headTitle}>What is bug </h2>
     <div class="input-group-prepend">
   <span class="input-group-text" id="basic-addon3">services</span>
 </div>
@@ -29,7 +29,7 @@ const SearchResult = (props)=>{
 <div class="row">
 <div class="col-md-2">
 <div className={styles.tagDomain}>
-<h3>Domain<span className={styles.label}>{props.data.domain}</span></h3>
+<h3>Domain<span className={styles.label}>Collaterals</span></h3>
 </div>
 </div>
 <div class="col-md-2">
