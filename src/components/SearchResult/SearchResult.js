@@ -11,6 +11,7 @@ const date= moment().format('MMM DD, YYYY');
 
 
 const SearchResult = (props)=>{
+  return(
 <div class="container">
 <div className={styles.searchOutline}>
 <div class="row">
@@ -21,7 +22,7 @@ const SearchResult = (props)=>{
     <span className={styles.heartButton}>
     <i class="fa-solid fa-heart"></i>
     </span>
-    <h2 className={styles.headTitle}>What is bug </h2>
+    <h2 className={styles.headTitle}>{props.data.question}</h2>
     <div class="input-group-prepend">
   <span class="input-group-text" id="basic-addon3">services</span>
 </div>
@@ -82,7 +83,7 @@ const SearchResult = (props)=>{
 </div>
 </div>
 </div>
-}
+)}
 SearchResult.propTypes = {};
 
 SearchResult.defaultProps = {};
