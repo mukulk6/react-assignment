@@ -204,3 +204,19 @@ img
     width:32px;
     height:26px;
 }
+
+.viewCount, .viewScore
+{
+    border-bottom: 1px dotted #ddd;
+    float:left;
+    color:gray;
+    font-size: 14px;
+    font-weight:500;
+    padding:3px;
+}
+
+.viewScore ::after
+{
+    border-right: 1px solid;
+    color:gray;
+}

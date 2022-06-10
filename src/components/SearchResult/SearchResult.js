@@ -40,14 +40,14 @@ const SearchResult = (props)=>{
 </div>
 </div>
 <div class="col-md-12">
-{props.data.answer && props.data.answer.map((answers)=>{return(<div className={styles.answerDiv}>
+{props.data.answers && props.data.answers.map((answer)=>{return(<div className={styles.answerDiv}>
   <div className={styles.expertInfo}>
 <img class="rounded-circle" alt="40x40" src={require('../../images/sample.jpg')}
         data-holder-rendered="true"></img>
         <div class="row">
 <div class={styles.userInfo}>
 <span className={styles.userName}>
-    {answers.firstName}{props.ans.lastName}
+    {answer.expert.firstName}&nbsp;{answer.expert.lastName}
 </span>
 <div className={styles.paste}>
 <span className={styles.reqImg}>
@@ -63,7 +63,7 @@ const SearchResult = (props)=>{
 <div class="row">
 <div className={styles.answeredInfo}>
   <span className='answeredBy'>Answered</span>
-  <span className='datestamp'>{moment(props.data.expertAnsweredTimeStamp).format('MMM DD, YYYY')}</span>
+  <span className='datestamp'>{moment(answer.answeredTimestamp).format('MMM DD, YYYY')}</span>
 
 </div>
 </div>
@@ -72,9 +72,22 @@ const SearchResult = (props)=>{
             </span>
             <div class='row'>
               <div className={styles.answerBlock}>
-      <p>{props.answer.answerText}</p>
+      <p>{answer.answerText}</p>
   </div>
 </div>
+<div class="row">
+  <div class="col-md-2 pull-left">
+    <span className={styles.viewCount}>
+    <i class="fa fa-eye" aria-hidden="true"></i>
+    </span>
+    <span className={styles.viewScore}>
+    {answer.popularityScore}
+    </span>
+    </div>
+    <div class="col-md-3">
+      <span></span>
+    </div>
+  </div>
 </div>
 </div>
 )})}
