@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import  { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
 import moment from 'moment';
 
-const date= moment().format('MMM DD, YYYY');
+/*const date= moment().format('MMM DD, YYYY');*/
 
 
 const SearchResult = (props)=>{
@@ -24,30 +24,30 @@ const SearchResult = (props)=>{
     </span>
     <h2 className={styles.headTitle}>{props.data.question}</h2>
     <div class="input-group-prepend">
-  <span class="input-group-text" id="basic-addon3">services</span>
+  {props.data.additionalContext&&<span class="input-group-text" id="basic-addon3">{props.data.additionalContext}</span>}
 </div>
 </div>
 <div class="row">
 <div class="col-md-2">
 <div className={styles.tagDomain}>
-<h3>Domain<span className={styles.label}>Collaterals</span></h3>
+<h3>Domain<span className={styles.label}>{props.data.domain}</span></h3>
 </div>
 </div>
 <div class="col-md-2">
 <div className={styles.tagsinQue}>
-<h3>Tags:<span className={styles.tagLabel}>testing</span><span className={styles.tagLabel}>black-box</span></h3>
+<h3>Tags:<span className={styles.tagLabel}>testing</span><span className={styles.tagLabel}>selenium</span></h3>
 </div>
 </div>
 </div>
 <div class="col-md-12">
-<div className={styles.answerDiv}>
+{props.data.answer && props.data.answer.map((answers)=>{return(<div className={styles.answerDiv}>
   <div className={styles.expertInfo}>
 <img class="rounded-circle" alt="40x40" src={require('../../images/sample.jpg')}
         data-holder-rendered="true"></img>
         <div class="row">
 <div class={styles.userInfo}>
 <span className={styles.userName}>
-    Tejal Kunjir
+    {answers.firstName}{props.ans.lastName}
 </span>
 <div className={styles.paste}>
 <span className={styles.reqImg}>
@@ -63,22 +63,21 @@ const SearchResult = (props)=>{
 <div class="row">
 <div className={styles.answeredInfo}>
   <span className='answeredBy'>Answered</span>
-  <span className='datestamp'>{date}</span>
+  <span className='datestamp'>{moment(props.data.expertAnsweredTimeStamp).format('MMM DD, YYYY')}</span>
 
 </div>
 </div>
             <span className={styles.userScore}>
               <FontAwesomeIcon icon="fa-solid fa-award" />
             </span>
-  
             <div class='row'>
               <div className={styles.answerBlock}>
-      <p>{props.data.answerText}</p>
+      <p>{props.answer.answerText}</p>
   </div>
 </div>
 </div>
-
 </div>
+)})}
 </div>
 </div>
 </div>
