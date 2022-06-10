@@ -1,3 +1,6 @@
+body{
+    font-family: 'Poppins', 'Lato', sans-serif;
+}
 .searchOutline
 {
     width:100%;
@@ -45,6 +48,7 @@
     width: 100%;
     text-align: left;
     margin: 0px 0px 10px 0px;
+    font-weight: normal;
 }
 
 #basic-addon3
@@ -201,7 +205,6 @@ img
 
 .updateIconimg
 {
-    width:32px;
     height:26px;
 }
 
@@ -213,10 +216,71 @@ img
     font-size: 14px;
     font-weight:500;
     padding:3px;
+    font-family: 'Poppins',sans-serif;
+}
+#pasteIcon
+{
+    font-size: 20px !important;
 }
 
-.viewScore ::after
+.ratingTitle
 {
-    border-right: 1px solid;
-    color:gray;
+    color: #949494;
+    font-size: 12px;
+    margin-left: -20px;
+    font-family:'Poppins', sans-serif;
+}
+
+.ratingStars
+{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.ratingStars li
+{
+    color:yellow;
+    display: inline-block;
+    font-size:12px;
+}
+
+.answerBlock p 
+{
+    font-family: 'Poppins',sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.helpfulButton
+{
+    margin-left: 10px;
+    vertical-align: 2px;
+    padding: 2px 5px 7px 5px;
+    background: #f4f4f4;
+    border-radius: 2px;
+    border: 1px solid #ececec;
+    height: 35px;
+    float:right;
+}
+
+.helpfulButton span
+{
+    font-weight: bold;
+    color: #4f6384;
+    padding:5px;
+}
+
+.helpfulButton img
+{
+    width: 20px;
+    height:20px;
+    float:right;
+    margin-top:3px;
+}
+
+#basic-addon3
+{
+    font-family: 'Poppins',sans-serif;
 }

@@ -54,7 +54,7 @@ const SearchResult = (props)=>{
       <img src={require('../../images/help-support.jpg')} className={styles.updateIconimg}></img>
     </span>
 <span> 
-  <i class="fa-solid fa-paste"></i>
+  <i class="fa-solid fa-paste" id="pasteIcon"></i>
     </span>
 
     </div>
@@ -76,17 +76,33 @@ const SearchResult = (props)=>{
   </div>
 </div>
 <div class="row">
-  <div class="col-md-2 pull-left">
+  <div class="col-md-3 pull-left">
     <span className={styles.viewCount}>
     <i class="fa fa-eye" aria-hidden="true"></i>
     </span>
     <span className={styles.viewScore}>
     {answer.popularityScore}
     </span>
+    <span className={styles.ratingTitle}>Rating:</span>
+    <span>
+      <ul className={styles.ratingStars}>
+        <li><i class="fa-solid fa-star"></i></li>
+        <li><i class="fa-solid fa-star"></i></li>
+        <li><i class="fa-solid fa-star"></i></li>
+        <li><i class="fa-solid fa-star"></i></li>
+        <li><i class="fa-solid fa-star"></i></li>
+      </ul>
+      </span>
     </div>
-    <div class="col-md-3">
-      <span></span>
+  </div>
+  <div class="row">
+  <div class="pull-right">
+    <div class="offset-md-10 float-right">
+    <div className={styles.helpfulButton}>
+    <span>Helpful<img src={require('../../images/helpful.png')}></img></span>
     </div>
+    </div>
+  </div>
   </div>
 </div>
 </div>
