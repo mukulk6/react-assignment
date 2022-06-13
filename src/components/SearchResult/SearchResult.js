@@ -23,8 +23,8 @@ const SearchResult = (props)=>{
     <i class="fa-solid fa-heart"></i>
     </span>
     <h2 className={styles.headTitle}>{props.data.question}</h2>
-    <div class="input-group-prepend">
-  {props.data.additionalContext&&<span class="input-group-text" id="basic-addon3">{props.data.additionalContext}</span>}
+    <div class="input-group-prepend" className={styles.additionalCont}>
+  {props.data.additionalContext&&<span class="input-group-text"  id="basic-addon3">{props.data.additionalContext}</span>}
 </div>
 </div>
 <div class="row">
@@ -94,15 +94,13 @@ const SearchResult = (props)=>{
       </ul>
       </span>
     </div>
-  </div>
-  <div class="row">
-  <div class="pull-right">
-    <div class="offset-md-10 float-right">
+    <div class="col-md-9 float-right">
+    <div class="pull-right">
     <div className={styles.helpfulButton}>
     <span>Helpful<img src={require('../../images/helpful.png')}></img></span>
     </div>
-    </div>
   </div>
+      </div>
   </div>
 </div>
 </div>

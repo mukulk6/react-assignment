@@ -241,9 +241,10 @@ img
 
 .ratingStars li
 {
-    color:yellow;
+    color:#FFE11A;
     display: inline-block;
     font-size:12px;
+    padding: 2px;
 }
 
 .answerBlock p 
@@ -280,7 +281,8 @@ img
     margin-top:3px;
 }
 
-#basic-addon3
+.additionalCont
 {
     font-family: 'Poppins',sans-serif;
+    font-size: 14px !important;
 }
