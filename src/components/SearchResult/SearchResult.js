@@ -7,8 +7,13 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import  { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
 import moment from 'moment';
 
-/*const date= moment().format('MMM DD, YYYY');*/
 
+function unix_to_readable(timestamp) {
+    var date = new Date(parseInt(timestamp)) ;
+    return ('0' + date.getDate()).slice(-2) + '-'
+         + ('0' + (date.getMonth()+1)).slice(-2) + '-'
+         + date.getFullYear();
+}
 
 const SearchResult = (props)=>{
   return(
@@ -40,7 +45,8 @@ const SearchResult = (props)=>{
 </div>
 </div>
 <div class="col-md-12">
-{props.data.answers && props.data.answers.map((answer)=>{return(<div className={styles.answerDiv}>
+{props.data.answers && props.data.answers.map((answer)=>{return(
+<div className={styles.answerDiv}>
   <div className={styles.expertInfo}>
 <img class="rounded-circle" alt="40x40" src={require('../../images/sample.jpg')}
         data-holder-rendered="true"></img>
@@ -63,7 +69,7 @@ const SearchResult = (props)=>{
 <div class="row">
 <div className={styles.answeredInfo}>
   <span className='answeredBy'>Answered</span>
-  <span className='datestamp'>{moment(answer.answeredTimestamp).format('MMM DD, YYYY')}</span>
+  <span className='datestamp'>{moment(unix_to_readable(answer.answeredTimestamp)).format('LL')}</span>
 
 </div>
 </div>
