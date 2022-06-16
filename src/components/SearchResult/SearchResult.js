@@ -13,7 +13,7 @@ const dateformat = (props) =>{
 const SearchResult = (props)=>{
   return(
 <div class="container">
-<nav class="fixed-top navbar navbar-expand-lg ms-auto">
+<nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
   <div class="container" className={styles.containerNav}>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -21,6 +21,7 @@ const SearchResult = (props)=>{
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <a class="navbar-brand" href="#" className={styles.brandImg}><img src={require('../../images/vizerto.png')}></img>
     </a>
+    <div class="float-right">
     <ul class="navbar-nav ms-auto mt-lg-0" className={styles.navigationBar}>
       <li class="nav-item active">
       <i class="fa fa-search" aria-hidden="true"></i>
@@ -36,11 +37,17 @@ const SearchResult = (props)=>{
       </li>
       <li class="nav-item">
         <div class={styles.fireIcon}>
-      <i class="glyphicon glyphicon-fire"></i>
-      <p>2/3</p>
+        <i class="fa fa-fire"></i>
+      <span>2/3</span>
       </div>
       </li>
+      <li class="nav-item">
+        <div className={styles.dropNotification}>
+        <i class="fa-thin fa-bell"></i>
+        </div>
+      </li>
     </ul>
+    </div>
     </div>
   </div>
 </nav>
