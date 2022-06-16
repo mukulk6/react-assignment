@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', 'Lato', sans-serif;
+    padding-top: 70px; 
 }
 .searchOutline
 {
@@ -286,3 +287,45 @@ img
     font-family: 'Poppins',sans-serif;
     font-size: 14px !important;
 }
+
+a.brandImg img 
+{
+    width:118px;
+    height:35px;
+    margin-bottom: 15px;
+}
+
+.navigationBar li
+{
+    color:#075491;
+    border-bottom: 2px solid #fff;
+    background-color: #fff;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
+}
+
+.navigationBar a
+{
+    font-weight: 600;
+    margin:0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #075491;
+}
+
+.navbar {
+    box-shadow: 0px 5px 50px rgb(0 0 0 / 10%);
+    margin-bottom: 0px;
+    border: 0px;
+}
+
+
+.containerNav
+{
+margin-left:15px;
+padding-left: 15px;
+}
+

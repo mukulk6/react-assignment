@@ -7,17 +7,43 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import  { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
 import moment from 'moment';
 
-
-function unix_to_readable(timestamp) {
-    var date = new Date(parseInt(timestamp)) ;
-    return ('0' + date.getDate()).slice(-2) + '-'
-         + ('0' + (date.getMonth()+1)).slice(-2) + '-'
-         + date.getFullYear();
-}
+const dateformat = (props) =>{
+};
 
 const SearchResult = (props)=>{
   return(
 <div class="container">
+<nav class="fixed-top navbar navbar-expand-lg ms-auto">
+  <div class="container" className={styles.containerNav}>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#" className={styles.brandImg}><img src={require('../../images/vizerto.png')}></img>
+    </a>
+    <ul class="navbar-nav ms-auto mt-lg-0" className={styles.navigationBar}>
+      <li class="nav-item active">
+      <i class="fa fa-search" aria-hidden="true"></i>
+        <a class="nav-link" href="#">Ask a Question <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+      <i class="fa fa-fire" aria-hidden="true"></i>
+        <a class="nav-link" href="#">Trending</a>
+      </li>
+      <li class="nav-item">
+      <i class="fa fa-question-circle-o"></i>
+        <a class="nav-link" href="#">My Searches</a>
+      </li>
+      <li class="nav-item">
+        <div class={styles.fireIcon}>
+      <i class="glyphicon glyphicon-fire"></i>
+      <p>2/3</p>
+      </div>
+      </li>
+    </ul>
+    </div>
+  </div>
+</nav>
 <div className={styles.searchOutline}>
 <div class="row">
   <div className={styles.innerDiv}>
@@ -40,7 +66,7 @@ const SearchResult = (props)=>{
 </div>
 <div class="col-md-2">
 <div className={styles.tagsinQue}>
-<h3>Tags:<span className={styles.tagLabel}>testing</span><span className={styles.tagLabel}>selenium</span></h3>
+  {(props.data.tags).length!=null && <h3>Tags:<span className={styles.tagLabel}>{props.data.tags}</span></h3>}
 </div>
 </div>
 </div>
@@ -69,7 +95,7 @@ const SearchResult = (props)=>{
 <div class="row">
 <div className={styles.answeredInfo}>
   <span className='answeredBy'>Answered</span>
-  <span className='datestamp'>{moment(unix_to_readable(answer.answeredTimestamp)).format('LL')}</span>
+  <span className='datestamp'>{dateformat}</span>
 
 </div>
 </div>
