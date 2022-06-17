@@ -360,12 +360,13 @@ color: #fd7400;
 
 .dropNotification > i
 {
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
     position: relative
 } 
 
 .dropNotification
 {
-    color:#b4c6cc;
+    color:#075491;
+    padding-left:15px;
 }

@@ -42,8 +42,13 @@ const SearchResult = (props)=>{
       </div>
       </li>
       <li class="nav-item">
-        <div className={styles.dropNotification}>
-        <i class="fa-thin fa-bell"></i>
+        <div className={styles.dropNotification} dropdown id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-bell"></i>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+        </div>
         </div>
       </li>
     </ul>
