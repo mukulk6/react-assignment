@@ -5,10 +5,18 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import  { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
+import Dropdown from 'react-dropdown';
+import 'react-dropdown/style.css';
 import moment from 'moment';
 
 const dateformat = (props) =>{
 };
+
+const options = [
+  'one', 'two', 'three'
+];
+
+const defaultOption = options[0];
 
 const SearchResult = (props)=>{
   return(
@@ -42,13 +50,9 @@ const SearchResult = (props)=>{
       </div>
       </li>
       <li class="nav-item">
-        <div className={styles.dropNotification} dropdown id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div className={styles.dropNotification}>
         <i class="fa fa-bell"></i>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+        <Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" />;
         </div>
       </li>
     </ul>
