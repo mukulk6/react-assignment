@@ -292,11 +292,13 @@ a.brandImg img
 {
     width:118px;
     height:35px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .navigationBar
 {
     margin-bottom: 0;
+    margin-left: auto !important;
 }
 .navigationBar li
 {
@@ -322,8 +324,8 @@ nav {
     box-shadow: 0px 5px 50px rgb(0 0 0 / 10%);
     border: 0px;
     background-color: #fff;
-    padding-top:0px;
-    padding-bottom: 0px;
+    padding-top:0px !important;
+    padding-bottom: 0px !important;
 }
 
 
@@ -369,4 +371,73 @@ color: #fd7400;
 {
     color:#075491;
     padding-left:15px;
+}
+
+.userinfo
+{
+    position:relative;
+    top:10px;
+    padding-left: 10px;
+    padding-right:12px;
+}
+
+.userinfo h4
+{
+    margin: 0px 0;
+    margin-bottom: -4px;
+    font-size: 14px;
+    font-weight:300;
+    color:#004358;
+    font-family: 'Poppins', 'Lato', sans-serif;
+    padding: 0px 0px 0px 0px;
+}
+
+.userinfo span
+{
+    padding-left:6px;
+    padding-right:5px;
+    font-size: 14px;
+}
+.userinfo select
+{
+    width: 80px;
+    margin-top: 10px;
+    padding: 2px 4px;
+    height: auto;
+    -webkit-appearance: none;
+    background-position: calc(100% - 4px) 50%;
+    background-repeat: no-repeat;
+    background-size: 13px 19px;
+    border-bottom: none;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: none;
+    position:relative;
+    top: -12px;
+    left: 5px;
+}
+
+.username select
+{
+    width: 80px;
+    margin-top: 0px;
+    padding: 2px 4px;
+    height: auto;
+    -webkit-appearance: none;
+    background-position: calc(100% - 4px) 50%;
+    background-repeat: no-repeat;
+    background-size: 13px 19px;
+    border-bottom: none;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: none;
+    position:relative;
+    top: -2px;
+    left: 5px;
+    margin-right: 20px;
+}
+
+.username span
+{
+    position: relative;
+    left:-18px;
+    font-size: 14px;
 }

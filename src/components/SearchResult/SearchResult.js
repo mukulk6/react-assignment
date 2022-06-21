@@ -5,8 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import  { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
-import Dropdown from 'react-dropdown';
-import 'react-dropdown/style.css';
+import Select from 'react-select'
 import moment from 'moment';
 
 const dateformat = (props) =>{
@@ -15,6 +14,8 @@ const dateformat = (props) =>{
 const options = [
   'one', 'two', 'three'
 ];
+
+const values = ['1', '2','3'];
 
 const defaultOption = options[0];
 
@@ -29,8 +30,7 @@ const SearchResult = (props)=>{
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     <a class="navbar-brand" href="#" className={styles.brandImg}><img src={require('../../images/vizerto.png')}></img>
     </a>
-    <div class="float-right">
-    <ul class="navbar-nav ms-auto mt-lg-0" className={styles.navigationBar}>
+    <ul class="navbar-nav ms-auto" className={styles.navigationBar}>
       <li class="nav-item active">
       <i class="fa fa-search" aria-hidden="true"></i>
         <a class="nav-link" href="#">Ask a Question <span class="sr-only">(current)</span></a>
@@ -52,11 +52,34 @@ const SearchResult = (props)=>{
       <li class="nav-item">
         <div className={styles.dropNotification}>
         <i class="fa fa-bell"></i>
-        <Dropdown options={options} onChange={this._onSelect} value={defaultOption} placeholder="Select an option" />;
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="dropdown dropdown-right">
+          <div className={styles.userinfo}>
+            <div class="clearfix">
+            <span>Mukul Kale</span>
+            <img src={require('../../images/profile.jpg')}></img>
+            <select class="form-select form-select-sm" aria-label=".form-select-lg example">
+  <option value="1">Admin</option>
+  <option value="2">CM</option>
+  <option value="3">Expert</option>
+  <option selected value="4">Seeker</option>
+</select>          
+            </div>
+            </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div className={styles.username}>
+          <span>Group</span>
+          <select class="form-select form-select-sm" aria-label=".form-select-lg example">
+  <option value="1">Alpha</option>
+  <option value="2">GTech</option>
+  </select>
         </div>
       </li>
     </ul>
-    </div>
     </div>
   </div>
 </nav>
