@@ -441,3 +441,8 @@ color: #fd7400;
     left:-18px;
     font-size: 14px;
 }
+
+.navigationBar li:nth-child(1):hover, .navigationBar li:nth-child(2):hover, .navigationBar li:nth-child(3):hover
+{
+border-bottom: 2px solid #fd7400;
+}
