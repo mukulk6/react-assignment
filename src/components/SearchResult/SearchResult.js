@@ -5,19 +5,18 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import  { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
-import Select from 'react-select'
 import moment from 'moment';
 
 const dateformat = (props) =>{
-};
+  moment(props.data.answers.answeredTimestamp).fromNow();
+}
 
-const options = [
-  'one', 'two', 'three'
-];
-
-const values = ['1', '2','3'];
-
-const defaultOption = options[0];
+function EpochToDate(epoch){
+  if (epoch < 10000000000)
+      epoch *= 1000; // convert to milliseconds (Epoch is usually expressed in seconds, but Javascript uses Milliseconds)
+  var epoch = epoch + (new Date().getTimezoneOffset() * -1); //for timeZone        
+  return new Date(epoch);
+}
 
 const SearchResult = (props)=>{
   return(
