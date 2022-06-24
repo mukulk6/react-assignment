@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import SearchResult from './components/SearchResult/SearchResult';
+import Trending from './components/Trending/Trending';
 import Data from './components/SearchResult/data.json';
-import {BrowserRouter as Router,Switch,Route,Redirect,} from "react-router-dom";
+import Trend from './components/Trending/trending.json';
+import React from 'react';
 
 function App() {
   return(
@@ -15,7 +17,20 @@ function App() {
             </div>
               )
             })
-          }   
+
+          }
+          <React.Fragment>
+          {
+            Trend.map((postData, index)=>{ 
+              return(
+                <div key={index}>
+            <Trending url="/trending" data={postData}/>
+            </div>
+              )
+            })
+
+          }
+            </React.Fragment>  
     </div>
   )
 }

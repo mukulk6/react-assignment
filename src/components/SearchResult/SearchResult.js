@@ -5,7 +5,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import  { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
+import Trending from '../Trending/Trending';
 import moment from 'moment';
+import {  BrowserRouter, Link} from "react-router-dom";
 
 const dateformat = (props) =>{
   moment(props.data.answers.answeredTimestamp).fromNow();
@@ -35,8 +37,18 @@ const SearchResult = (props)=>{
         <a class="nav-link" href="#">Ask a Question <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-      <i class="fa fa-fire" aria-hidden="true"></i>
-        <a class="nav-link" href="#">Trending</a>
+        <div class="dropdown show" role="button">
+        <div data-toggle="dropdown" class="dropdown-toggle" id="dropdownMenuLink" 
+         aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-fire" aria-hidden="true" data-bs-target="#dropdownMenuLink"></i>
+        <Link to = "/trending" element={<Trending />} />Trending
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+        </div>
+        </div>
       </li>
       <li class="nav-item">
       <i class="fa fa-question-circle-o"></i>
