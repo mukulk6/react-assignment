@@ -1,8 +1,19 @@
 import React, { Component, useState } from 'react';
 import SearchResult from '../SearchResult/SearchResult';
 import styles from '../SearchResult/SearchResult.module.css';
+import Trend from '../Trending/trending.json';
 
-const Trending =  (props)=> {
+const Trending = (props)=> {
+  function trendData()
+{
+  Trend.map((postData, index)=>{ 
+    return(
+      <div key={index}>            
+  <Trending data={postData} />
+  </div>
+    )
+  })
+}
     return(       
         <div class="container">
             <nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
@@ -137,11 +148,14 @@ const Trending =  (props)=> {
           </div>
           <div class="row">
         <div class="col-md-12" className={styles.questionList}>
-            <h2>{props.data.text}</h2>
+            <h2>{trendData(data.text)}</h2>
         </div>
           </div>
         </div>
     )
 }
+Trending.propTypes = {};
+
+Trending.defaultProps = {};
 
 export default Trending;

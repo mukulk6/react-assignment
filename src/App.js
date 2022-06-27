@@ -19,18 +19,7 @@ function App() {
             })
 
           }
-          <React.Fragment>
-          {
-            Trend.map((postData, index)=>{ 
-              return(
-                <div key={index}>
-            <Trending url="/trending" data={postData}/>
-            </div>
-              )
-            })
 
-          }
-            </React.Fragment>  
     </div>
   )
 }
