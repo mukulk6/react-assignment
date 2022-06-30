@@ -6,10 +6,10 @@ import Trend from '../Trending/trending.json';
 const Trending = (props)=> {
   function trendData()
 {
-  Trend.map((postData, index)=>{ 
+  Trend.map((trendingData, ind)=>{ 
     return(
-      <div key={index}>            
-  <Trending data={postData} />
+      <div key={ind}>            
+  <Trending data={trendingData} />
   </div>
     )
   })
@@ -119,25 +119,24 @@ const Trending = (props)=> {
             </div>
             
             <div class="col-md-3">
-            <div class="col-auto">
-              <span>
+              
     <label for="inputPassword2" class="visually-hidden">Password</label>
-    <input type="password" className={styles.searchbox} class="form-control " id="inputPassword2" placeholder="Search" />
-    </span>
-  </div>
+    <input type="password" class="form-control " id={styles.inputPassword2} placeholder="Search..." />
+    <i class="fa-solid fa-magnifying-glass" id={styles.searchIcon}></i>
       </div>
       <div class="col-md-3">
-        <span>Sort by:</span>
-      <select class="form-select" aria-label="Default select example">
-  <option selected>Open this select menu</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
+        <span id={styles.sortBy}>Sort by:</span>
+      <select class="form-select" className={styles.sortDropbox} aria-label="Default select example">
+  <option selected>Recently Answered</option>
+  <option value="1">Oldest (Answered)</option>
+  <option value="2">Recently Asked</option>
+  <option value="3">Oldest asked</option>
+  <option value="4">Most Viewed</option>
 </select>
       </div>
       <div class="col-md-3">
-        <span>Domain:</span>
-      <select class="form-select" aria-label="Default select example">
+        <span id={styles.domain}>Domain:</span>
+      <select class="form-select"  aria-label="Default select example">
   <option selected>Open this select menu</option>
   <option value="1">One</option>
   <option value="2">Two</option>
@@ -148,7 +147,7 @@ const Trending = (props)=> {
           </div>
           <div class="row">
         <div class="col-md-12" className={styles.questionList}>
-            <h2>{trendData(data.text)}</h2>
+            <h2>{trendData(Trend)}</h2>
         </div>
           </div>
         </div>
