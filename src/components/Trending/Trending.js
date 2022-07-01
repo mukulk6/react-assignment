@@ -3,17 +3,21 @@ import SearchResult from '../SearchResult/SearchResult';
 import styles from '../SearchResult/SearchResult.module.css';
 import Trend from '../Trending/trending.json';
 
-const Trending = (props)=> {
-  function trendData()
+
+const trendData = () =>
 {
   Trend.map((trendingData, ind)=>{ 
     return(
       <div key={ind}>            
-  <Trending data={trendingData} />
+  <Trending data={trendingData}> 
+  </Trending>
   </div>
     )
   })
 }
+
+const Trending = (props)=> {
+  
     return(       
         <div class="container">
             <nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
@@ -31,10 +35,10 @@ const Trending = (props)=> {
       </li>
       <li class="nav-item">
         <div class="dropdown">
-        <div type="button" class="dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <i class="fa fa-fire" aria-hidden="true"></i>
+        <div type="button" class="dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-fire" ></i>
         <a class="nav-link" href="#">Trending</a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id={styles.dropdownMenuButton}>
     <a class="dropdown-item" href="#">Action</a>
     <a class="dropdown-item" href="#">Another action</a>
     <a class="dropdown-item" href="#">Something else here</a>
@@ -147,7 +151,21 @@ const Trending = (props)=> {
           </div>
           <div class="row">
         <div class="col-md-12" className={styles.questionList}>
-            <h2>{trendData(Trend)}</h2>
+            <h2>      
+          
+      </h2>
+      <div className={styles.innerDiv}>
+    <span className={styles.sharingButton}>
+    <i class="fa-solid fa-share-nodes"></i>
+    </span>
+    <span className={styles.heartButton}>
+    <i class="fa-solid fa-heart"></i>
+    </span>
+    <h2 className={styles.headTitle}>{Trend.map((data,key)=>{return(<h2>{data.text}</h2>)})}</h2>
+    <div class="input-group-prepend" className={styles.additionalCont}>
+  {trendData(Trend.additionalContext)&&<span class="input-group-text"  id="basic-addon3">{trendData(Trend.additionalContext)}</span>}
+</div>
+</div>
         </div>
           </div>
         </div>
