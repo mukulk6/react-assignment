@@ -4,7 +4,7 @@ import styles from '../SearchResult/SearchResult.module.css';
 import Trend from '../Trending/trending.json';
 
 
-const trendData = () =>
+const trendData = (props) =>
 {
   Trend.map((trendingData, ind)=>{ 
     return(
@@ -150,9 +150,9 @@ const Trending = (props)=> {
       
           </div>
           <div class="row">
-        <div class="col-md-12" className={styles.questionList}>
+          {Trend.map((question)=> 
+          <div class="col-md-12" className={styles.questionList}>
             <h2>      
-          
       </h2>
       <div className={styles.innerDiv}>
     <span className={styles.sharingButton}>
@@ -161,12 +161,12 @@ const Trending = (props)=> {
     <span className={styles.heartButton}>
     <i class="fa-solid fa-heart"></i>
     </span>
-    <h2 className={styles.headTitle}>{Trend.map((data,key)=>{return(<h2>{data.text}</h2>)})}</h2>
+    <h2 className={styles.headTitle}>{question.text}</h2>
     <div class="input-group-prepend" className={styles.additionalCont}>
   {trendData(Trend.additionalContext)&&<span class="input-group-text"  id="basic-addon3">{trendData(Trend.additionalContext)}</span>}
 </div>
 </div>
-        </div>
+        </div>)}
           </div>
         </div>
     )
