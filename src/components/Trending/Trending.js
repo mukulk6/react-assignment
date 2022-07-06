@@ -21,6 +21,8 @@ moment(props.data.answersList.answeredTimestamp).fromNow();
 }
 
 const Trending = (props)=> {
+  const [showContent, hideContent] = useState(false);
+
 return(       
   <div class="container">
       <nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
@@ -219,7 +221,7 @@ return(
       </span>
       <div class='row'>
         <div className={styles.answerBlock}>
-<p>{(que.answer).length >= 550 && <div className={styles.fader}><div className={styles.contentVar}><p>{que.answer}</p></div></div> }</p>
+<p>{(que.answer).length >= 550 && <div className={styles.fader}><div className={styles.contentVar}><span className={styles.showMore} role="button" type="button"><i class="fa-solid fa-angle-down"></i><p>{que.answer}</p></span></div></div> }</p>
 </div>
 </div>
 <div class="row">
