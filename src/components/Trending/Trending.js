@@ -20,8 +20,14 @@ const dateformat = (props) =>{
 moment(props.data.answersList.answeredTimestamp).fromNow();
 }
 
+const [showContent, hideContent] = useState(false);
+
+
+const expandDiv = () => {
+  showContent(!hideContent);
+}
 const Trending = (props)=> {
-  const [showContent, hideContent] = useState(false);
+
 
 return(       
   <div class="container">
@@ -221,7 +227,10 @@ return(
       </span>
       <div class='row'>
         <div className={styles.answerBlock}>
-<p>{(que.answer).length >= 550 && <div className={styles.fader}><div className={styles.contentVar}><span className={styles.showMore} role="button" type="button"><i class="fa-solid fa-angle-down"></i><p>{que.answer}</p></span></div></div> }</p>
+<p>{(que.answer).length >= 550 && <div className={styles.fader}><div className={styles.contentVar}><p>{que.answer}</p></div></div>}</p>
+<div class="row">
+{(que.answer).length >= 550 && <span className={styles.showMore} role="button" type="button" onClick={expandDiv()}><i class="fa-solid fa-angle-down"></i>Show More</span>}
+  </div>
 </div>
 </div>
 <div class="row">
