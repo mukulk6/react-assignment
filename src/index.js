@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-<<<<<<< HEAD
 import {MapData, App}  from './App';
-=======
 import App from './App';
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Trending from './components/Trending/Trending';
@@ -16,11 +13,8 @@ root.render(
     <BrowserRouter>
     <Routes>
     <Route path="/" element={<App />} />
-<<<<<<< HEAD
     <Route path="/trending" element={<Trending>{MapData()}</Trending>} />
-=======
     <Route path="/trending" element={<Trending />} />
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

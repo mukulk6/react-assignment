@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 import React, { Component, useState, useEffect } from 'react';
 import SearchResult from '../SearchResult/SearchResult';
 import styles from '../Trending/SearchResult.module.css';
 import Trend from '../Trending/trending2.json';
 import moment from 'moment';
 import {MapData} from '../../App';
-
-
-function TrendData({postsToRender})
-=======
 import React, { Component, useState } from 'react';
 import SearchResult from '../SearchResult/SearchResult';
 import styles from '../SearchResult/SearchResult.module.css';
@@ -17,7 +12,6 @@ import moment from 'moment';
 
 
 function TrendData(props)
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 {
 Trend.map((trendingData, ind)=>{ 
 return(
@@ -28,7 +22,6 @@ return(
 })
 }
 
-<<<<<<< HEAD
 const questionsPerPage = 6;
 let arrayForHoldingQuestions = [];
 
@@ -58,33 +51,21 @@ return(
 }
 
 const Trending = (props)=> {
-  const [visibleQuestions, setVisibleQuestions] = useState(6);
-  const handleClick = () => {
-    setVisibleQuestions(prevVisibleQuestions => prevVisibleQuestions + 4)
-}
-
-const [showShow, setShowShow] = useState(false);
+  const [showShow, setShowShow] = useState(false);
 
 const toggleShow = () => {setShowShow(!showShow)
 return (<div className={styles.expandDivContent}></div>)};
 
-const hideSearchIcon = () => {return<i class="fa-solid fa-magnifying-glass" id={styles.searchIcon} style={{display:'none'}} ></i>};
-return(       
-<div class="container">
-    <nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
-=======
-const dateformat = (props) =>{
-moment(props.data.answersList.answeredTimestamp).fromNow();
+  const [visibleQuestions, setVisibleQuestions] = useState(6);
+  const handleClick = () => {
+    setVisibleQuestions(prevVisibleQuestions => prevVisibleQuestions + 4)
 }
-
-
-const Trending = (props)=> {
+const hideSearchIcon = () => {return<i class="fa-solid fa-magnifying-glass" id={styles.searchIcon} style={{display:'none'}} ></i>};
 
   const [showContent, hideContent] = useState(false);
 return(       
   <div class="container">
       <nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 <div class="container" className={styles.containerNav}>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
@@ -95,7 +76,6 @@ return(
 <ul class="navbar-nav ms-auto" className={styles.navigationBar}>
 <li class="nav-item active">
 <i class="fa fa-search" aria-hidden="true"></i>
-<<<<<<< HEAD
 <a class="nav-link" href="#">Ask a Question <span class="sr-only">(current)</span></a>
 </li>
 <li class="nav-item">
@@ -104,7 +84,6 @@ return(
 <i class="fa fa-fire" ></i>
 <a class="nav-link" href="#">Trending</a>
 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id={styles.dropdownMenuButton}>
-=======
   <a class="nav-link" href="#">Ask a Question <span class="sr-only">(current)</span></a>
 </li>
 <li class="nav-item">
@@ -113,12 +92,10 @@ return(
 <i class="fa fa-fire" ></i>
   <a class="nav-link" href="#">Trending</a>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id={styles.dropdownMenuButton}>
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 <a class="dropdown-item" href="#">Action</a>
 <a class="dropdown-item" href="#">Another action</a>
 <a class="dropdown-item" href="#">Something else here</a>
 </div>
-<<<<<<< HEAD
 </div>
 </div>
 </li>
@@ -129,7 +106,6 @@ return(
 <li class="nav-item">
 <div class={styles.fireIcon}>
 <i class="fa fa-fire"></i>
-=======
   </div>
   </div>
 </li>
@@ -140,12 +116,10 @@ return(
 <li class="nav-item">
   <div class={styles.fireIcon}>
   <i class="fa fa-fire"></i>
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 <span>2/3</span>
 </div>
 </li>
 <li class="nav-item">
-<<<<<<< HEAD
 <div className={styles.dropNotification}>
 <i class="fa fa-bell"></i>
 </div>
@@ -157,7 +131,6 @@ return(
     <span>Mukul Kale</span>
     <img src={require('../../images/profile.jpg')}></img>
     <select class="form-select form-select-sm" aria-label=".form-select-lg example">
-=======
   <div className={styles.dropNotification}>
   <i class="fa fa-bell"></i>
   </div>
@@ -169,13 +142,11 @@ return(
       <span>Mukul Kale</span>
       <img src={require('../../images/profile.jpg')}></img>
       <select class="form-select form-select-sm" aria-label=".form-select-lg example">
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 <option value="1">Admin</option>
 <option value="2">CM</option>
 <option value="3">Expert</option>
 <option selected value="4">Seeker</option>
 </select>          
-<<<<<<< HEAD
     </div>
     </div>
 </div>
@@ -188,7 +159,6 @@ return(
 <option value="2">GTech</option>
 </select>
 </div>
-=======
       </div>
       </div>
   </div>
@@ -201,7 +171,6 @@ return(
 <option value="2">GTech</option>
 </select>
   </div>
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 </li>
 </ul>
 </div>
@@ -211,17 +180,13 @@ return(
 <div className={styles.midcontainer}>
 <div class="container">
 <div class="row">
-<<<<<<< HEAD
 <div class="input-group mb-3" className={styles.buttonAns}>
-=======
   <div class="input-group mb-3" className={styles.buttonAns}>
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 <input  maxLength="200" type="text" class="form-control" placeholder="Ask a Question" aria-label="Ask a Question" aria-describedby="basic-addon2" />
 <span class="input-group-text" id="basic-addon2">Get Answers</span>
 </div>
 <div class="row">
 <div class="col-md-10">
-<<<<<<< HEAD
 <span className={styles.domains}>Domain covered: VSP 5000, E Series (E990,E790,E590), Ops Center, HNAS 5000</span>
 </div>
 <div class="col-md-2">
@@ -229,7 +194,6 @@ return(
   Characters: </span>
   <span className={styles.charAt}>200/200</span> 
   </div>        
-=======
   <span className={styles.domains}>Domain covered: VSP 5000, E Series (E990,E790,E590), Ops Center, HNAS 5000</span>
 </div>
 <div class="col-md-2">
@@ -237,12 +201,10 @@ return(
     Characters: </span>
     <span className={styles.charAt}>200/200</span> 
     </div>        
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 </div>
 </div>
 </div>
 
-<<<<<<< HEAD
 </div>
 </div>
 <div class="row">     
@@ -261,7 +223,6 @@ return(
 </div>
 <div class="col-md-3">
 <span id={styles.sortBy}>Sort by:</span>
-=======
   </div>
   </div>
   <div class="row">     
@@ -280,7 +241,6 @@ return(
 </div>
 <div class="col-md-3">
   <span id={styles.sortBy}>Sort by:</span>
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 <select class="form-select" className={styles.sortDropbox} aria-label="Default select example">
 <option selected>Recently Answered</option>
 <option value="1">Oldest (Answered)</option>
@@ -290,11 +250,8 @@ return(
 </select>
 </div>
 <div class="col-md-3">
-<<<<<<< HEAD
 <span id={styles.domain}>Domain:</span>
-=======
   <span id={styles.domain}>Domain:</span>
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 <select class="form-select"  aria-label="Default select example">
 <option selected>Open this select menu</option>
 <option value="1">One</option>
@@ -302,18 +259,10 @@ return(
 <option value="3">Three</option>
 </select>
 </div>
-<<<<<<< HEAD
   </div>
-  {Trend.slice(0, visibleQuestions).map((question)=>
-  <div class="row"> 
-  <div class="col-md-12" className={styles.questionList}>
-=======
-    </div>
-    
-    {Trend.map((question)=>
+{Trend.slice(0, visibleQuestions).map((question)=>
     <div class="row"> 
     <div class="col-md-12" className={styles.questionList}>
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 <div className={styles.innerDiv}>
 <span className={styles.sharingButton}>
 <i class="fa-solid fa-share-nodes"></i>
@@ -348,13 +297,8 @@ return(
 <div className={styles.answerDiv}>
 <div className={styles.expertInfo}>
 <img class="rounded-circle" alt="40x40" src={require('../../images/sample.jpg')}
-<<<<<<< HEAD
 data-holder-rendered="true"></img>
-<div class="row">
-=======
-  data-holder-rendered="true"></img>
   <div class="row">
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 <div class={styles.userInfo}>
 <span className={styles.userName}>
 {que.expertFirstName}&nbsp;{que.expertLastName}
@@ -372,7 +316,6 @@ data-holder-rendered="true"></img>
 <div class="row">
 <div className={styles.answeredInfo}>
 <span className='answeredBy'>Answered</span>
-<<<<<<< HEAD
 <span className='datestamp'>{moment(que.answeredTimestamp).fromNow()}</span>
 
 </div>
@@ -386,7 +329,6 @@ data-holder-rendered="true"></img>
 <div class="row">
 {(que.answer).length >= 550 && <span className={styles.showMore} role="button" type="button" onClick={toggleShow}><i class="fa-solid fa-angle-down"></i>Show More</span>}
 </div>
-=======
 <span className='datestamp'>{dateformat}</span>
 
 </div>
@@ -400,7 +342,6 @@ data-holder-rendered="true"></img>
 <div class="row">
 {(que.answer).length >= 550 && <span className={styles.showMore} role="button" type="button" ><i class="fa-solid fa-angle-down"></i>Show More</span>}
   </div>
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 </div>
 </div>
 <div class="row">
@@ -414,13 +355,11 @@ data-holder-rendered="true"></img>
 </div>
 <div class="col-md-9 float-right">
 <div class="pull-right">
-<<<<<<< HEAD
 <div>
 {que.voteInfo.upvoteCount > 0 ? <span className={styles.upvoteButton}><i class="fa-solid fa-thumbs-up"></i><span className={styles.upvoteLikeText}>Like</span></span> : <span className={styles.upvoteButton}><i class="fa-solid fa-thumbs-up"></i><span className={styles.upvoteLikeText}>{que.voteInfo.upvoteCount}</span></span>  }
-=======
 <div className={styles.helpfulButton}>
 <span>Helpful<img src={require('../../images/helpful.png')}></img></span>
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
+</div>
 </div>
 </div>
 </div>
@@ -428,23 +367,17 @@ data-holder-rendered="true"></img>
 </div>
 </div>
 )})}
+
 </div>
 </div>
 </div>
 </div>
-</div>
-<<<<<<< HEAD
-)
-}
+)}
 <div class="row">
   {setVisibleQuestions.length > visibleQuestions && <button type="button" class="btn btn-success" className={styles.loadMoreButton} onClick={handleClick}>Load More</button>}
 </div>
-=======
-)}
-
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
-</div>
-)}
+)
+</div>}
 Trending.propTypes = {};
 
 Trending.defaultProps = {};

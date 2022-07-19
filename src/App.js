@@ -6,7 +6,6 @@ import Data from './components/SearchResult/data.json';
 import Trend from './components/Trending/trending.json';
 import React from 'react';
 
-<<<<<<< HEAD
 export const MapData = () => {
   return(
     Trend.map((postData, index)=>{ 
@@ -20,9 +19,6 @@ export const MapData = () => {
 }
 
 export function App() {
-=======
-function App() {
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
   return(
     <div className="App">    
       {
@@ -33,10 +29,7 @@ function App() {
             </div>
               )
             })
-<<<<<<< HEAD
-=======
 
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
           }
 
     </div>
