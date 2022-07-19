@@ -1,0 +1,1203 @@
+ [
+  {
+    "questionUuid": "6efb7eae-782e-4853-8406-fe66ae50f0b1",
+    "topicUuid": "fe71ed56-4ff2-434b-886e-2f5862decabe",
+    "text": "What is smoke testing?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1656078249000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      "testing",
+      "smoke"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "768be440-f66d-4175-806f-7c1ad9ba9be4",
+        "questionUuid": "6efb7eae-782e-4853-8406-fe66ae50f0b1",
+        "answer": "Expert answered",
+        "answerStatus": "Expert ans",
+        "answeredTimestamp": 1656078275000,
+        "answerUpdatedTimestamp": 1656078275000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.56",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "rating": 4,
+        "ratingTimestamp": 1656078286000,
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "f8b542f9-fec5-4aad-8ebb-785e9604b84d",
+        "privacy": false,
+        "popularityScore": 1,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-06-24T00:00:00.000+0000",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 253,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 0,
+    "viewCount": 1
+  },
+  {
+    "questionUuid": "5bc68c40-d17c-4ca0-9073-1b289eb6658e",
+    "topicUuid": "dd7715e3-2a21-41b2-8717-789b6d894972",
+    "text": "what is software testing?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1656064670000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+    "postedUserFirstName": "Sally",
+    "postedUserLastName": "Garcia",
+    "tags": [
+      "software",
+      "testing"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "241766f5-5bee-4805-a7a2-9ae6164639e6",
+        "questionUuid": "5bc68c40-d17c-4ca0-9073-1b289eb6658e",
+        "answer": "Testing correctness, completeness and quality of the software.",
+        "answerStatus": "Testing co",
+        "answeredTimestamp": 1656077862000,
+        "answerUpdatedTimestamp": 1656077862000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.56",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "rating": 3,
+        "ratingTimestamp": 1656077888000,
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "3481e4c9-bb22-4ef2-aa7a-f901abcb995c",
+        "privacy": false,
+        "popularityScore": 1,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-06-24T00:00:00.000+0000",
+        "seekerCurationVisibility": true,
+        "attachments": [
+          {
+            "name": "4346d933bcfa1d59b368d121f6747980.pdf",
+            "size": null,
+            "src": null,
+            "type": "application/pdf",
+            "data": null,
+            "caption": "testpdf",
+            "answerId": null,
+            "objectUrl": "attachments/4346d933bcfa1d59b368d121f6747980.pdf",
+            "targetStream": null,
+            "metaData": null,
+            "attachmentType": null,
+            "thumbnail": false
+          }
+        ],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 253,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 0,
+    "viewCount": 1
+  },
+  {
+    "questionUuid": "c3bd97a4-251c-4f07-a984-580a8b6a4e1b",
+    "topicUuid": "f519b755-ecd9-40ad-9505-500caeafc70d",
+    "text": "What is slack notification?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1656075382000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      "notification",
+      "slack"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "5dbac72e-1be2-4794-b1e6-2a910e553b2b",
+        "questionUuid": "c3bd97a4-251c-4f07-a984-580a8b6a4e1b",
+        "answer": "test",
+        "answerStatus": "test",
+        "answeredTimestamp": 1656076496000,
+        "answerUpdatedTimestamp": 1656076496000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.56",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "rating": 4,
+        "ratingTimestamp": 1656076529000,
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "33644194-da44-4c10-932b-226f7be63fe2",
+        "privacy": false,
+        "popularityScore": 1,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-06-24T00:00:00.000+0000",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 253,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 0,
+    "viewCount": 1
+  },
+  {
+    "questionUuid": "91a39bf5-1ce9-48b6-942e-cbccc00c14a9",
+    "topicUuid": "bd9e2472-38ec-453b-affb-9e98d6047431",
+    "text": "what is adb.exe?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1656075809000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+    "postedUserFirstName": "Sally",
+    "postedUserLastName": "Garcia",
+    "tags": [],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "d89588f8-135f-45dc-bb0d-65b9f9c42daa",
+        "questionUuid": "91a39bf5-1ce9-48b6-942e-cbccc00c14a9",
+        "answer": "Ans Check",
+        "answerStatus": "Ans Check",
+        "answeredTimestamp": 1656075991000,
+        "answerUpdatedTimestamp": 1656075991000,
+        "expertFirstName": "Mukul",
+        "expertLastName": "Kale",
+        "expertScore": "6.86",
+        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "74f8eb70-270d-4107-b0bb-9908e55c8222",
+        "privacy": false,
+        "popularityScore": 2,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-06-24T00:00:00.000+0000",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      },
+      {
+        "answerUuid": "119475c2-033c-48f9-a15c-6c3cb6052f64",
+        "questionUuid": "91a39bf5-1ce9-48b6-942e-cbccc00c14a9",
+        "answer": "its a file",
+        "answerStatus": "its a file",
+        "answeredTimestamp": 1656075855000,
+        "answerUpdatedTimestamp": 1656075855000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.56",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "rating": 3,
+        "ratingTimestamp": 1656076572000,
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "e8b899dd-bda1-49a3-9e11-0c45536e1c93",
+        "privacy": false,
+        "popularityScore": 2,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 253,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 0,
+    "viewCount": 2
+  },
+  {
+    "questionUuid": "0214d948-a46b-471f-93cd-be63cf6bdcb9",
+    "topicUuid": "420a1225-9c45-4b5d-91dc-075da2af78c9",
+    "text": "What is non-functional testing?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1656064743000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+    "postedUserFirstName": "Sally",
+    "postedUserLastName": "Garcia",
+    "tags": [
+      "non-functional",
+      "testing"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "050c5cf5-669f-456d-9a68-6e1f292b4d1d",
+        "questionUuid": "0214d948-a46b-471f-93cd-be63cf6bdcb9",
+        "answer": "Non-functional testing tests the system's non-functional requirements, which refer to an attribute or quality of the system explicitly requested by the client. These include performance, security, scalability, and usability.\n\nNon-functional testing comes after functional testing. It tests the general characteristics unrelated to the functional requirements of the software. Non-functional testing ensures that the software is secure, scalable, high-performance, and won't crash under heavy load.<div>updated</div>",
+        "answerStatus": "Non-functi",
+        "answeredTimestamp": 1656065614000,
+        "answerUpdatedTimestamp": 1656065614000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.56",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "f83ea087-3564-4261-bcc7-8fe352edf031",
+        "privacy": false,
+        "popularityScore": 9,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-06-24T00:00:00.000+0000",
+        "seekerCurationVisibility": true,
+        "attachments": [
+          {
+            "name": "download.jpg",
+            "size": null,
+            "src": null,
+            "type": "image/jpeg",
+            "data": null,
+            "caption": "test",
+            "answerId": null,
+            "objectUrl": "attachments/download.jpg",
+            "targetStream": null,
+            "metaData": null,
+            "attachmentType": null,
+            "thumbnail": false
+          }
+        ],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 253,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 0,
+    "viewCount": 9
+  },
+  {
+    "questionUuid": "f76cf04d-8a41-4ef4-ba5d-02ca3bc852d8",
+    "topicUuid": "c49a61e4-1bb1-4ddc-9bf8-f13e6ca07de2",
+    "text": "Why would they use CBS for archive/backup?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1655909641000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      "CBS",
+      "archivebackup",
+      "they"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "12e7b3cb-debf-48d8-8385-5037d3001fa7",
+        "questionUuid": "f76cf04d-8a41-4ef4-ba5d-02ca3bc852d8",
+        "answer": "Folks. I'm working on a EverGreen One proposal for a customer who would like to use Veeam with the capacity tier... however one of the two sites would only be ~52TiB. Is my only option for that site even if the other site is over 200TiB? Next question can capacity tier subscription be used with CBS as well? They plan to move to cloud in the next few years. Link to one of the quotes: https://purestorage.lightning.force.com/lightning/r/SBQQ__Quote__c/aFy4W0000006YhhSAE/view. , We do have customers with multisites where we have been flexible on the 200TiB minimum commit per site for Capacity Tier. Build your quote and submit for approval. I would not advise quoting less than 100TiB at that site though. Today CBS is only available as a Block Performance license so there is no ability to shift EUC to CBS from the Capacity subscription.",
+        "answerStatus": "Folks. I'm",
+        "answeredTimestamp": 1656063277000,
+        "answerUpdatedTimestamp": 1656065598000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.56",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "1ebccbcb-964f-45a0-b176-d0b445369a9f",
+        "privacy": false,
+        "popularityScore": 5,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2022-06-27T18:30:00.000+0000",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 253,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 0,
+    "viewCount": 5
+  },
+  {
+    "questionUuid": "7a1b8f92-90eb-4ba8-ba25-924710d5af1d",
+    "topicUuid": "19323d7f-fa09-419c-ba9f-1ded63ed83bd",
+    "text": "What is selenium IDE?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1654578849000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      "selenium"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedId": 2171,
+    "sharedWith": [
+      {
+        "userId": null,
+        "firstName": "Mukul",
+        "lastName": "Kale",
+        "email": "mukul.kale@digitalmain.com",
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "userUuidBin": "PFHQAwVuT8CgV2SGq+f1Yg==",
+        "userStatus": null,
+        "orgId": null,
+        "modifiedDate": null,
+        "id": null,
+        "password": null,
+        "createdDate": null,
+        "newQuestion": null,
+        "expertAnswered": null,
+        "anotherExpertAnswered": null,
+        "seekerRated": null,
+        "questionShared": null,
+        "newExpQuestion": null,
+        "phoneNumber": null,
+        "token": null,
+        "expDate": null,
+        "tourFlag": null,
+        "accountnonlocked": null,
+        "title": null,
+        "timezone": null,
+        "locale": null,
+        "department": null,
+        "costCenter": null,
+        "country": null,
+        "zipcode": null,
+        "userType": null,
+        "seekerIdentity": null,
+        "expertScore": null,
+        "reroute": null
+      }
+    ],
+    "answersList": [
+      {
+        "answerUuid": "cd178fd1-00aa-42e2-b35d-934f60ddb333",
+        "questionUuid": "7a1b8f92-90eb-4ba8-ba25-924710d5af1d",
+        "answer": "Ans Check 1 & Ans Check 2",
+        "answerStatus": "Ans Check ",
+        "answeredTimestamp": 1654585132000,
+        "answerUpdatedTimestamp": 1654585132000,
+        "expertFirstName": "Mukul",
+        "expertLastName": "Kale",
+        "expertScore": "6.86",
+        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "8ef73357-2167-45ed-9370-13406fb90c9d",
+        "privacy": false,
+        "popularityScore": 81,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-06-07T00:00:00.000+0000",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      },
+      {
+        "answerUuid": "950ffe40-8414-4c23-b922-bda9440a57d8",
+        "questionUuid": "7a1b8f92-90eb-4ba8-ba25-924710d5af1d",
+        "answer": "Test",
+        "answerStatus": "Test",
+        "answeredTimestamp": 1654594986000,
+        "answerUpdatedTimestamp": 1654594986000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.56",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "92570ce6-7a5f-4f89-b4ae-b73318a5cdc4",
+        "privacy": false,
+        "popularityScore": 81,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 253,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 0,
+    "viewCount": 81
+  },
+  {
+    "questionUuid": "af54a7df-bb54-4bb2-afa3-22382c6f6c09",
+    "topicUuid": "a626c9cf-cc65-4fc5-948f-dbdaa883365f",
+    "text": "Among the theories and technologies used to develop chatterbots",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1653586567000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "af273bdd-cb86-42d4-aac9-35da0b7cedd6",
+    "postedUserFirstName": "Manoj",
+    "postedUserLastName": "Kumar",
+    "tags": [
+      "technologies",
+      "theories",
+      "chatterbots"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedId": 2103,
+    "sharedWith": [
+      {
+        "userId": null,
+        "firstName": "Mukul",
+        "lastName": "Kale",
+        "email": "mukul.kale@digitalmain.com",
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "userUuidBin": "PFHQAwVuT8CgV2SGq+f1Yg==",
+        "userStatus": null,
+        "orgId": null,
+        "modifiedDate": null,
+        "id": null,
+        "password": null,
+        "createdDate": null,
+        "newQuestion": null,
+        "expertAnswered": null,
+        "anotherExpertAnswered": null,
+        "seekerRated": null,
+        "questionShared": null,
+        "newExpQuestion": null,
+        "phoneNumber": null,
+        "token": null,
+        "expDate": null,
+        "tourFlag": null,
+        "accountnonlocked": null,
+        "title": null,
+        "timezone": null,
+        "locale": null,
+        "department": null,
+        "costCenter": null,
+        "country": null,
+        "zipcode": null,
+        "userType": null,
+        "seekerIdentity": null,
+        "expertScore": null,
+        "reroute": null
+      }
+    ],
+    "answersList": [
+      {
+        "answerUuid": "7b62e63c-6608-43be-bb97-679756d81747",
+        "questionUuid": "af54a7df-bb54-4bb2-afa3-22382c6f6c09",
+        "answer": "A chatterbot development platform provides the AIML interpreter, as well as a set of integrated technologies, to reduce the cost and the complexity of development, deployment and management of such systems. Some of technologies that can be pointed out are the database integration, Web services for an online chatterbot and the log recording of the conversations with the users. Some development platforms are presented below: • ProgramD [16] consists of an API (Application Programming Interface) implemented in Java. Among the advantages of using ProgramD there are (i) the distribution of the source code files and (ii) a KB that can be used for testing and analysis during the AIML language learning, as well as to develop chatterbots ; • Program# [17] is a .NET platform AIML that allows the usage of programming languages targeted to the .NET platform, such as C#, VB.NET, F#, and so on. Program# enables the chatterbot integration with Microsoft Windows and Web systems. Since the tool is distributed as a DLL (Dynamic Link Library) it is possible to attach it in encapsulated form project. 6. CONCLUSIONS This work highlighted the importance of the conversational software development, more specifically the chatterbots as computational agents to establish natural language dialogs between humans and machines. Among the chatterbot development theories, the Pattern Recognition was outlined, and it is based on representative stimulus-response blocks. The AIML language is one of the most widely used technologies for chatterbots implementation that combines the technical and theoretical Pattern Recognition's infrastructure in its development. In order to provide to the developers a reference guide to direct them in the chatterbots development, this work introduced the main tags (commands) of AIML so the reader could be able to start developing chatterbots, to build his/her own KB and to integrate it with the programming language of his/her choice, such as Java or C#.<div><br></div><div>Edit Answer </div>",
+        "answerStatus": "A chatterb",
+        "answeredTimestamp": 1653890607000,
+        "answerUpdatedTimestamp": 1653890607000,
+        "expertFirstName": "Mukul",
+        "expertLastName": "Kale",
+        "expertScore": "6.86",
+        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "8647845a-ba27-47bc-8d05-95a54e2436f4",
+        "privacy": false,
+        "popularityScore": 60,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-05-30T00:00:00.000+0000",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      },
+      {
+        "answerUuid": "267ecd4b-bfab-42b8-9187-e9a74ce063bc",
+        "questionUuid": "af54a7df-bb54-4bb2-afa3-22382c6f6c09",
+        "answer": "A chatterbot development platform provides the AIML interpreter, as well as a set of integrated technologies, to reduce the cost and the complexity of development, deployment and management of such systems. Some of technologies that can be pointed out are the database integration, Web services for an online chatterbot and the log recording of the conversations with the users. Some development platforms are presented below: • ProgramD [16] consists of an API (Application Programming Interface) implemented in Java. Among the advantages of using ProgramD there are (i) the distribution of the source code files and (ii) a KB that can be used for testing and analysis during the AIML language learning, as well as to develop chatterbots ; • Program# [17] is a .NET platform AIML that allows the usage of programming languages targeted to the .NET platform, such as C#, VB.NET, F#, and so on. Program# enables the chatterbot integration with Microsoft Windows and Web systems. Since the tool is distributed as a DLL (Dynamic Link Library) it is possible to attach it in encapsulated form project. 6. CONCLUSIONS This work highlighted the importance of the conversational software development, more specifically the chatterbots as computational agents to establish natural language dialogs between humans and machines. Among the chatterbot development theories, the Pattern Recognition was outlined, and it is based on representative stimulus-response blocks. The AIML language is one of the most widely used technologies for chatterbots implementation that combines the technical and theoretical Pattern Recognition's infrastructure in its development. In order to provide to the developers a reference guide to direct them in the chatterbots development, this work introduced the main tags (commands) of AIML so the reader could be able to start developing chatterbots, to build his/her own KB and to integrate it with the programming language of his/her choice, such as Java or C#.",
+        "answerStatus": "A chatterb",
+        "answeredTimestamp": 1653885650000,
+        "answerUpdatedTimestamp": 1653885650000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.56",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 1,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "5fa49819-515e-42d4-8ba0-aff38be4ed7b",
+        "privacy": false,
+        "popularityScore": 60,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "seekerCurationVisibility": true,
+        "attachments": [
+          {
+            "name": "aiml.pdf",
+            "size": null,
+            "src": null,
+            "type": "application/pdf",
+            "data": null,
+            "caption": null,
+            "answerId": null,
+            "objectUrl": "attachments/aiml.pdf",
+            "targetStream": null,
+            "metaData": null,
+            "attachmentType": null,
+            "thumbnail": false
+          },
+          {
+            "name": "soapui_tutorial.pdf",
+            "size": null,
+            "src": null,
+            "type": "application/pdf",
+            "data": null,
+            "caption": null,
+            "answerId": null,
+            "objectUrl": "attachments/soapui_tutorial.pdf",
+            "targetStream": null,
+            "metaData": null,
+            "attachmentType": null,
+            "thumbnail": false
+          }
+        ],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 253,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 0,
+    "viewCount": 60
+  },
+  {
+    "questionUuid": "61a7b160-6683-44fd-a547-87156dfc98a9",
+    "topicUuid": "682d3d4b-0aa5-470d-a96c-2a23fd09c840",
+    "text": "What is REST & SOAP?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1652957184000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      "REST",
+      "SOAP"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "882f83bc-520a-4e43-881c-b069c8928e8d",
+        "questionUuid": "61a7b160-6683-44fd-a547-87156dfc98a9",
+        "answer": "REST is an acronym for REpresentational State Transfer and an architectural style for distributed hypermedia systems.<br>Representational State Transfer (REST)<br><div><a target=\"_blank\" href=\"http://google.com\">http://google.com</a><br></div>",
+        "answerStatus": "REST is an",
+        "answeredTimestamp": 1652963140000,
+        "answerUpdatedTimestamp": 1654163577000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.56",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "rating": 3,
+        "ratingTimestamp": 1655380957000,
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 2,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "913af5e6-b3bc-4d64-9d8f-d4f8b8e1f06a",
+        "privacy": false,
+        "popularityScore": 197,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-06-02T00:00:00.000+0000",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 253,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 0,
+    "viewCount": 197
+  },
+  {
+    "questionUuid": "1d4350eb-3a5e-4a63-97b1-7bcb56f7e3a9",
+    "topicUuid": "afe34fb4-ddd5-4e85-97b9-7bb2ef27a1bc",
+    "text": "who does testing?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1654255332000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+    "postedUserFirstName": "Sally",
+    "postedUserLastName": "Garcia",
+    "tags": [
+      "testing"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedId": 2148,
+    "sharedWith": [
+      {
+        "userId": null,
+        "firstName": "Mukul",
+        "lastName": "Kale",
+        "email": "mukul.kale@digitalmain.com",
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "userUuidBin": "PFHQAwVuT8CgV2SGq+f1Yg==",
+        "userStatus": null,
+        "orgId": null,
+        "modifiedDate": null,
+        "id": null,
+        "password": null,
+        "createdDate": null,
+        "newQuestion": null,
+        "expertAnswered": null,
+        "anotherExpertAnswered": null,
+        "seekerRated": null,
+        "questionShared": null,
+        "newExpQuestion": null,
+        "phoneNumber": null,
+        "token": null,
+        "expDate": null,
+        "tourFlag": null,
+        "accountnonlocked": null,
+        "title": null,
+        "timezone": null,
+        "locale": null,
+        "department": null,
+        "costCenter": null,
+        "country": null,
+        "zipcode": null,
+        "userType": null,
+        "seekerIdentity": null,
+        "expertScore": null,
+        "reroute": null
+      }
+    ],
+    "answersList": [
+      {
+        "answerUuid": "9b3df5ea-593e-4bfb-85a6-bea3ee426507",
+        "questionUuid": "1d4350eb-3a5e-4a63-97b1-7bcb56f7e3a9",
+        "answer": "<a target=\"_blank\" href=\"https://stackoverflow.com/questions/72489054/update-rows-in-a-mysql-table-with-given-key\">https://stackoverflow.com/questions/72489054/update-rows-in-a-mysql-table-with-given-key</a> <div><br></div><div>Ans <i><b>Check </b></i></div><div contenteditable=\"false\" id=\"inlineimages\" style=\"width:100px;height:100px;\">9b3df5ea-593e-4bfb-85a6-bea3ee426507_0</div>",
+        "answerStatus": "<a target=",
+        "answeredTimestamp": 1654257295000,
+        "answerUpdatedTimestamp": 1654257295000,
+        "expertFirstName": "Mukul",
+        "expertLastName": "Kale",
+        "expertScore": "6.86",
+        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "71c616e1-893a-4da2-9f3c-c746a9b66912",
+        "privacy": false,
+        "popularityScore": 87,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-06-03T00:00:00.000+0000",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 253,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": true,
+    "relatedCount": 0,
+    "viewCount": 87
+  }
+]
