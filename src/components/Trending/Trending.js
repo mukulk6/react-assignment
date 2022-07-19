@@ -1,14 +1,10 @@
 import React, { Component, useState, useEffect } from 'react';
 import SearchResult from '../SearchResult/SearchResult';
 import styles from '../Trending/SearchResult.module.css';
-import Trend from '../Trending/trending2.json';
 import moment from 'moment';
 import {MapData} from '../../App';
-import React, { Component, useState } from 'react';
-import SearchResult from '../SearchResult/SearchResult';
-import styles from '../SearchResult/SearchResult.module.css';
 import Trend from '../Trending/trending.json';
-import moment from 'moment';
+
 
 
 function TrendData(props)
