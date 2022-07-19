@@ -13,7 +13,7 @@ root.render(
     <BrowserRouter>
     <Routes>
     <Route path="/" element={<App />} />
-    <Route path="/trending" element={<Trending>{MapData()}</Trending>} />
+    <Route path="/trending" element={<Trending>{MapData}</Trending>} />
     <Route path="/trending" element={<Trending />} />
     </Routes>
     </BrowserRouter>

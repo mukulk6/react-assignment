@@ -110,10 +110,6 @@ return(
   </div>
 </li>
 <li class="nav-item">
-<i class="fa fa-question-circle-o"></i>
-  <a class="nav-link" href="#">My Searches</a>
-</li>
-<li class="nav-item">
   <div class={styles.fireIcon}>
   <i class="fa fa-fire"></i>
 <span>2/3</span>
@@ -133,6 +129,8 @@ return(
     <select class="form-select form-select-sm" aria-label=".form-select-lg example">
   <div className={styles.dropNotification}>
   <i class="fa fa-bell"></i>
+  </div>
+  </select>
   </div>
 </li>
 <li class="nav-item">
@@ -159,17 +157,9 @@ return(
 <option value="2">GTech</option>
 </select>
 </div>
-      </div>
-      </div>
-  </div>
 </li>
-<li class="nav-item">
-  <div className={styles.username}>
-    <span>Group</span>
-    <select class="form-select form-select-sm" aria-label=".form-select-lg example">
-<option value="1">Alpha</option>
-<option value="2">GTech</option>
-</select>
+      </div>
+      </div>
   </div>
 </li>
 </ul>
