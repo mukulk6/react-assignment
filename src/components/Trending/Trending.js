@@ -35,6 +35,7 @@ const Button = () =>{
     setPostsToShow(arrayForHoldingQuestions);
   };
 
+<<<<<<< HEAD
   useEffect(() => {
     loopWithSlice(0, questionsPerPage);
   }, []);
@@ -49,7 +50,14 @@ return(
 </div>
 )
 }
+=======
+const [showContent, hideContent] = useState(false);
+>>>>>>> parent of 76d6c04 (Trending tab changes)
 
+
+const expandDiv = () => {
+  showContent(!hideContent);
+}
 const Trending = (props)=> {
   const [showShow, setShowShow] = useState(false);
 
@@ -62,7 +70,7 @@ return (<div className={styles.expandDivContent}></div>)};
 }
 const hideSearchIcon = () => {return<i class="fa-solid fa-magnifying-glass" id={styles.searchIcon} style={{display:'none'}} ></i>};
 
-  const [showContent, hideContent] = useState(false);
+
 return(       
   <div class="container">
       <nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
@@ -215,7 +223,8 @@ return(
 <span id={styles.sortBy}>Sort by:</span>
   </div>
   </div>
-  <div class="row">     
+  <div class="row">
+    <div className={styles.midBlock}>     
     <div class="col-md-3">
       <h3 className={styles.TrendingText}>
         Trending Questions
@@ -249,8 +258,16 @@ return(
 <option value="3">Three</option>
 </select>
 </div>
+<<<<<<< HEAD
   </div>
 {Trend.slice(0, visibleQuestions).map((question)=>
+=======
+
+  </div>
+    </div>
+    
+    {Trend.map((question)=>
+>>>>>>> parent of 76d6c04 (Trending tab changes)
     <div class="row"> 
     <div class="col-md-12" className={styles.questionList}>
 <div className={styles.innerDiv}>
@@ -328,9 +345,9 @@ data-holder-rendered="true"></img>
       </span>
       <div class='row'>
         <div className={styles.answerBlock}>
-<p>{((que.answer).length >= 550 && <div className={styles.fader}><div className={styles.contentVar}><p>{que.answer}</p></div></div>) }{(que.answer).length < 550 && <p>{que.answer}</p>}</p>
+<p>{(que.answer).length >= 550 && <div className={styles.fader}><div className={styles.contentVar}><p>{que.answer}</p></div></div>}</p>
 <div class="row">
-{(que.answer).length >= 550 && <span className={styles.showMore} role="button" type="button" ><i class="fa-solid fa-angle-down"></i>Show More</span>}
+{(que.answer).length >= 550 && <span className={styles.showMore} role="button" type="button" onClick={expandDiv()}><i class="fa-solid fa-angle-down"></i>Show More</span>}
   </div>
 </div>
 </div>
