@@ -438,13 +438,8 @@ color: #fd7400;
 .username > span
 {
     position: relative;
-<<<<<<< HEAD
-    font-size: 14px;
-    left:-18px;
-=======
     left:-18px;
     font-size: 14px;
->>>>>>> 76d6c0456a4775bdddd1c5d80ad47a6b050329d1
 }
 
 .navigationBar li:nth-child(1):hover, .navigationBar li:nth-child(2):hover, .navigationBar li:nth-child(3):hover
