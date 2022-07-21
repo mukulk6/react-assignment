@@ -1,11 +1,9 @@
-import React, { Component, useState, useEffect } from 'react';
+import React, { Component, useState, useEffect, Link } from 'react';
 import SearchResult from '../SearchResult/SearchResult';
 import styles from '../Trending/SearchResult.module.css';
 import moment from 'moment';
-import {MapData} from '../../App';
 import Trend from '../Trending/trending.json';
-
-
+import PropTypes from 'prop-types';
 
 function TrendData(props)
 {
@@ -15,8 +13,8 @@ return(
 <Trend data={trendingData} />
 </div>
 )
-})
-}
+})}
+
 
 const questionsPerPage = 6;
 let arrayForHoldingQuestions = [];
@@ -30,25 +28,23 @@ const Button = () =>{
     arrayForHoldingQuestions = [...arrayForHoldingQuestions, ...slicedPosts];
     setPostsToShow(arrayForHoldingQuestions);
   };
-
-
-
-
-const expandDiv = () => {
-  showContent(!hideContent);
 }
+
 const Trending = (props)=> {
   const [showContent, hideContent] = useState(false);
   const [showShow, setShowShow] = useState(false);
 
-const toggleShow = () => {setShowShow(!showShow)
-return (<div className={styles.expandDivContent}></div>)};
+  const toggleShow = () => {setShowShow(!showShow)
+    return (<div className={styles.expandDivContent}></div>)};
+  
+    const hideSearchIcon = () => {return<i class="fa-solid fa-magnifying-glass" id={styles.searchIcon} style={{display:'none'}} ></i>};
+  
+  const dateformat = () => {return(moment(Trend.answeredTimestamp).fromNow())};
 
   const [visibleQuestions, setVisibleQuestions] = useState(6);
   const handleClick = () => {
     setVisibleQuestions(prevVisibleQuestions => prevVisibleQuestions + 4)
 }
-const hideSearchIcon = () => {return<i class="fa-solid fa-magnifying-glass" id={styles.searchIcon} style={{display:'none'}} ></i>};
 
 return(       
   <div class="container">
@@ -291,7 +287,7 @@ data-holder-rendered="true"></img>
         <div className={styles.answerBlock}>
 <p>{(que.answer).length >= 550 && <div className={styles.fader}><div className={styles.contentVar}><p>{que.answer}</p></div></div>}</p>
 <div class="row">
-{(que.answer).length >= 550 && <span className={styles.showMore} role="button" type="button" onClick={expandDiv()}><i class="fa-solid fa-angle-down"></i>Show More</span>}
+{(que.answer).length >= 550 && <span className={styles.showMore} role="button" type="button"><i class="fa-solid fa-angle-down"></i>Show More</span>}
   </div>
 </div>
 </div>
@@ -330,7 +326,6 @@ data-holder-rendered="true"></img>
 </div>
 </div>
 )}
-}
 
 Trending.propTypes = {};
 

@@ -6,34 +6,19 @@ import Data from './components/SearchResult/data.json';
 import Trend from './components/Trending/trending.json';
 import React from 'react';
 
-export const MapData = () => {
-  return(
-    Trend.map((postData, index)=>{ 
-      return(
-        <div key={index}>
-    <Trending data={postData}/>
-    </div>
-      )
-    })
-  )
-}
-
-export function App() {
+ function App() {
   return(
     <div className="App">    
       {
-            Data.map((postData, index)=>{ 
-              return(
-                <div key={index}>
-            <SearchResult data={postData}/>
-            </div>
-              )
-            })
-
+        Data.map((postData, index)=>{ 
+          return(
+            <div key={index}>
+        <SearchResult data={postData}/>
+        </div>
+          )
+        })       
           }
-
     </div>
   )
 }
-
 export default App;
