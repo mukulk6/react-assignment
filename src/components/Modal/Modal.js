@@ -14,11 +14,10 @@ function ModalReusable (props) {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 return(
-<>
-      <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
-      </Button>
-
+<>  
+<Button variant="primary" onClick={handleShow}>
+Launch demo modal
+</Button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Some Text</Modal.Title>

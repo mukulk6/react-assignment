@@ -23,6 +23,10 @@ function EpochToDate(epoch){
 }
 
 const SearchResult = (props)=>{
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return(
 <div class="container">
@@ -182,7 +186,7 @@ const SearchResult = (props)=>{
     <div class="col-md-9 float-right">
     <div class="pull-right">
     <div className={styles.helpfulButton}>
-    <span>Helpful<img src={require('../../images/helpful.png')}></img></span>
+    <span onClick={()=><ModalReusable></ModalReusable>}>Helpful<img src={require('../../images/helpful.png')}></img></span>
     </div>
   </div>
   <ModalReusable ></ModalReusable>
