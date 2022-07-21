@@ -7,6 +7,7 @@ import  { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
 import Trending from '../Trending/Trending';
 import moment from 'moment';
 import {  BrowserRouter, Link} from "react-router-dom";
+import Modal from '../Modal/Modal';
 
 const dateformat = (props) =>{
   moment(props.data.answers.answeredTimestamp).fromNow();
@@ -188,6 +189,11 @@ const SearchResult = (props)=>{
 )})}
 </div>
 </div>
+</div>
+<div class="row">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" onClick={()=><Modal />}>
+  Launch Data Modal
+</button>
 </div>
 </div>
 )}
