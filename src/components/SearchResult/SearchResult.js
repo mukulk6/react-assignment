@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component ,useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './SearchResult.module.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -8,6 +8,8 @@ import Trending from '../Trending/Trending';
 import moment from 'moment';
 import {  BrowserRouter, Link} from "react-router-dom";
 import Modal from '../Modal/Modal';
+import Button from 'react-bootstrap/Button';
+import ModalReusable from '../Modal/Modal';
 
 const dateformat = (props) =>{
   moment(props.data.answers.answeredTimestamp).fromNow();
@@ -21,6 +23,7 @@ function EpochToDate(epoch){
 }
 
 const SearchResult = (props)=>{
+
   return(
 <div class="container">
 <nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
@@ -182,6 +185,7 @@ const SearchResult = (props)=>{
     <span>Helpful<img src={require('../../images/helpful.png')}></img></span>
     </div>
   </div>
+  <ModalReusable ></ModalReusable>
       </div>
   </div>
 </div>
@@ -191,9 +195,7 @@ const SearchResult = (props)=>{
 </div>
 </div>
 <div class="row">
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" onClick={()=><Modal />}>
-  Launch Data Modal
-</button>
+
 </div>
 </div>
 )}

@@ -4,8 +4,11 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../App';
+import SearchResult from '../SearchResult/SearchResult';
 
-const Modal = (props) => {
+
+function ModalReusable (props) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -18,7 +21,7 @@ return(
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>{props.data.question}</Modal.Title>
         </Modal.Header>
         <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
         <Modal.Footer>
@@ -35,6 +38,4 @@ return(
 }
 
 
-Modal.propTypes = {};
-Modal.defaultProps = {};
-export default Modal;
+export default ModalReusable;
