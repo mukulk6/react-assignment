@@ -20,7 +20,7 @@ Launch demo modal
 </Button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Title</Modal.Title>
+          <Modal.Title>{props.ans}</Modal.Title>
         </Modal.Header>
         <Modal.Body>{props.question}</Modal.Body>
         <Modal.Footer>

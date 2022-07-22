@@ -184,7 +184,7 @@ const SearchResult = (props)=>{
     <span>Helpful<img src={require('../../images/helpful.png')}></img></span>
     </div>
   </div>
-  <ModalReusable question={answer.answerText} />
+  <ModalReusable question={answer.expert.firstName} ans={answer.expert.lastName} />
       </div>
   </div>
 </div>
