@@ -6,13 +6,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../App';
 import SearchResult from '../SearchResult/SearchResult';
+import Data from '../SearchResult/data.json';
 
-
-function ModalReusable (props) {
+export function ModalReusable (props) {
     const [show, setShow] = useState(false);
-
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
 return(
 <>  
 <Button variant="primary" onClick={handleShow}>
@@ -20,9 +20,9 @@ Launch demo modal
 </Button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Some Text</Modal.Title>
+          <Modal.Title>Title</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Body>{props.question}</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close

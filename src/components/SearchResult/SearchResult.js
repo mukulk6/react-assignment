@@ -23,8 +23,6 @@ function EpochToDate(epoch){
 }
 
 const SearchResult = (props)=>{
-const[isOpen, setOpen] =useState(false);
-
   return(
 <div class="container">
 <nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
@@ -183,10 +181,10 @@ const[isOpen, setOpen] =useState(false);
     <div class="col-md-9 float-right">
     <div class="pull-right">
     <div className={styles.helpfulButton}>
-    <span onClick={()=>isOpen(true) }>Helpful<img src={require('../../images/helpful.png')}></img></span>
+    <span>Helpful<img src={require('../../images/helpful.png')}></img></span>
     </div>
   </div>
-  <ModalReusable ></ModalReusable>
+  <ModalReusable question={answer.answerText} />
       </div>
   </div>
 </div>
