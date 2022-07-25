@@ -8,7 +8,7 @@ import '../../App';
 import SearchResult from '../SearchResult/SearchResult';
 import Data from '../SearchResult/data.json';
 
-export function ModalReusable (props) {
+export function ModalReusable ({text}) {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -20,9 +20,9 @@ Launch demo modal
 </Button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>{props.ans}</Modal.Title>
+          <Modal.Title>{text}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{props.question}</Modal.Body>
+        <Modal.Body></Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
