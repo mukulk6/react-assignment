@@ -10,6 +10,7 @@ import {  BrowserRouter, Link} from "react-router-dom";
 import Modal from '../Modal/Modal';
 import Button from 'react-bootstrap/Button';
 import ModalReusable from '../Modal/Modal';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const dateformat = (props) =>{
   moment(props.data.answers.answeredTimestamp).fromNow();
@@ -39,18 +40,22 @@ const SearchResult = (props)=>{
         <a class="nav-link" href="#">Ask a Question <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <div class="dropdown show" role="button">
-        <div data-toggle="dropdown" class="dropdown-toggle" id="dropdownMenuLink" 
-         aria-haspopup="true" aria-expanded="false">
-      <i class="fa fa-fire" aria-hidden="true" data-bs-target="#dropdownMenuLink"></i>
-        <Link to = "/trending" element={<Trending />} />Trending
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-        </div>
-        </div>
+      <i class="fa fa-fire" aria-hidden="true"></i> 
+      <NavDropdown
+              id={styles.dropdownbasic}
+              title="Trending"
+              menuVariant="dark"
+            >
+              
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
       </li>
       <li class="nav-item">
       <i class="fa fa-question-circle-o"></i>
