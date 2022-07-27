@@ -740,3 +740,12 @@ background-color: #fff !important;
 {
     display: none !important;
 }
+
+.loadMoreButton
+{
+background-color: #bedb39 !important;
+    border-color: #bedb39;
+    color: #fff;
+    border-radius: 3px;
+    margin: 0px 3px;
+}

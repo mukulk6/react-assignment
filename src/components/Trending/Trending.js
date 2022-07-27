@@ -177,7 +177,6 @@ return(
 </select>
 </div>
   </div>
-
    <div class="row"> 
     {Trend.slice(0,visibleQuestions).map((question)=>
     <div class="row"> 
@@ -295,7 +294,7 @@ data-holder-rendered="true"></img>
 )}
 </div>
 <div class="row">
-  {setVisibleQuestions.length > visibleQuestions && <button type="button" class="btn btn-success" className={styles.loadMoreButton} onClick={handleClick}>Load More</button>}
+  {<button type="button" class="btn btn-success" className={styles.loadMoreButton} onClick={handleClick}>Load More</button>}
 </div>
 </div>
 )}

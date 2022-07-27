@@ -1,537 +1,23 @@
 [
   {
-    "questionUuid": "449c8bfa-cb35-473f-a7ee-9a5379189e63",
-    "topicUuid": "30052d1c-7dea-4850-85e9-e9ff3fbeefa8",
-    "text": "what is testing?",
-    "domain": "Capacity & Sizing",
-    "postedTimestamp": 1657992188000,
+    "questionUuid": "fd5281fa-d296-4225-ad5c-ed88057ca633",
+    "topicUuid": "ab19e01c-f98d-438f-9457-09bf9bbebb52",
+    "text": "what are the python namespaces?",
+    "domain": "Quoting & Opportunity",
+    "postedTimestamp": 1657887006000,
     "status": "answered",
     "popularityScore": 0,
-    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-    "postedUserFirstName": "Sally",
-    "postedUserLastName": "Garcia",
+    "postedUserUuid": "f18064df-ae00-425f-8fea-50f5ee75e8d1",
+    "postedUserFirstName": "Tejal",
+    "postedUserLastName": "Kunjir",
     "tags": [
-      "testing"
+      "python",
+      "namespaces"
     ],
     "express": false,
     "favourite": false,
     "sharing": false,
-    "sharedWith": [],
-    "answersList": [
-      {
-        "answerUuid": "bdc3afd6-e6da-4f7d-bf1d-fb82a6be0b7e",
-        "questionUuid": "449c8bfa-cb35-473f-a7ee-9a5379189e63",
-        "answer": "Test <div>expiration</div>",
-        "answerStatus": "Test <div>",
-        "answeredTimestamp": 1658234352000,
-        "answerUpdatedTimestamp": 1658234352000,
-        "expertFirstName": "Diksha",
-        "expertLastName": "Jadhav",
-        "expertScore": "7.54",
-        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "voteInfo": {
-          "upvote": null,
-          "upvoteCount": 0,
-          "downvoteCount": 0
-        },
-        "expertRequestUuid": "6a700538-0926-43bb-adb2-903d5c74a498",
-        "privacy": false,
-        "popularityScore": 2,
-        "ratingAllowed": false,
-        "viewFeedbackAllowed": false,
-        "alreadyRated": false,
-        "feedbackProvided": false,
-        "internal": false,
-        "curationStatus": "curated",
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": false,
-        "expiration": "2023-07-19T00:00:00.000+0000",
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 341,
-    "userInitiatedCuration": false,
-    "userType": "Employee",
-    "draftExists": false,
-    "relatedCount": 0,
-    "viewCount": 2
-  },
-  {
-    "questionUuid": "273adafa-4c3d-415e-b73c-2d91912bc982",
-    "topicUuid": "5a8f6f78-9497-4131-8dd7-e8fd19627d2d",
-    "text": "what is helping hand award?",
-    "domain": "Capacity & Sizing",
-    "postedTimestamp": 1657983587000,
-    "status": "answered",
-    "popularityScore": 0,
-    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-    "postedUserFirstName": "Sally",
-    "postedUserLastName": "Garcia",
-    "tags": [
-      "hand"
-    ],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedId": 2486,
-    "sharedWith": [
-      {
-        "userId": null,
-        "firstName": "Sally",
-        "lastName": "Garcia",
-        "email": "akash.kalsare@digitalmain.com",
-        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-        "userUuidBin": "BWFmvfAFSrSqrKbNO0zhaA==",
-        "userStatus": null,
-        "orgId": null,
-        "modifiedDate": null,
-        "id": null,
-        "password": null,
-        "createdDate": null,
-        "newQuestion": null,
-        "expertAnswered": null,
-        "anotherExpertAnswered": null,
-        "seekerRated": null,
-        "questionShared": null,
-        "newExpQuestion": null,
-        "phoneNumber": null,
-        "token": null,
-        "expDate": null,
-        "tourFlag": null,
-        "accountnonlocked": null,
-        "title": null,
-        "timezone": null,
-        "locale": null,
-        "department": null,
-        "costCenter": null,
-        "country": null,
-        "zipcode": null,
-        "userType": null,
-        "seekerIdentity": null,
-        "expertScore": null,
-        "reroute": null
-      }
-    ],
-    "answersList": [
-      {
-        "answerUuid": "a27b24b3-a5f7-4ca9-932f-2d8e867aca2c",
-        "questionUuid": "273adafa-4c3d-415e-b73c-2d91912bc982",
-        "answer": "if my question helps someone then I will get the point for Helping hand.",
-        "answerStatus": "if my ques",
-        "answeredTimestamp": 1657983647000,
-        "answerUpdatedTimestamp": 1657983647000,
-        "expertFirstName": "Sally",
-        "expertLastName": "Garcia",
-        "expertScore": "7.36",
-        "expertUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 3,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 2,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 4,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "rating": 3,
-        "ratingTimestamp": 1657983915000,
-        "feedback": "ok",
-        "voteInfo": {
-          "upvote": null,
-          "upvoteCount": 1,
-          "downvoteCount": 0
-        },
-        "expertRequestUuid": "04bc10fc-ad7b-4f4a-bf5f-239da6b780d6",
-        "privacy": false,
-        "popularityScore": 7,
-        "ratingAllowed": false,
-        "viewFeedbackAllowed": false,
-        "alreadyRated": false,
-        "feedbackProvided": false,
-        "internal": false,
-        "curationStatus": "curated",
-        "curationCategory": 3,
-        "confidence": false,
-        "userInitiatedCuration": true,
-        "vizAnswer": false,
-        "expiration": "2023-07-16T00:00:00.000+0000",
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      },
-      {
-        "answerUuid": "22d0fe9c-b064-4456-b531-6df871fb989f",
-        "questionUuid": "273adafa-4c3d-415e-b73c-2d91912bc982",
-        "answer": "test",
-        "answerStatus": "test",
-        "answeredTimestamp": 1658229244000,
-        "answerUpdatedTimestamp": 1658229244000,
-        "expertFirstName": "Diksha",
-        "expertLastName": "Jadhav",
-        "expertScore": "7.54",
-        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "voteInfo": {
-          "upvote": null,
-          "upvoteCount": 0,
-          "downvoteCount": 0
-        },
-        "expertRequestUuid": "edfde595-5528-4a7f-ae8c-fbc6c8ee139a",
-        "privacy": false,
-        "popularityScore": 7,
-        "ratingAllowed": false,
-        "viewFeedbackAllowed": false,
-        "alreadyRated": false,
-        "feedbackProvided": false,
-        "internal": false,
-        "curationStatus": "curated",
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": false,
-        "expiration": "2023-07-19T00:00:00.000+0000",
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 341,
-    "userInitiatedCuration": false,
-    "userType": "Employee",
-    "draftExists": false,
-    "relatedCount": 0,
-    "viewCount": 7
-  },
-  {
-    "questionUuid": "079922b0-b82a-4500-87b0-50ea698bac9d",
-    "topicUuid": "e505257f-c4e7-4cc0-89bc-bd96f882320c",
-    "text": "How to click on a hyperlink in Selenium?",
-    "domain": "Capacity & Sizing",
-    "postedTimestamp": 1658136784000,
-    "status": "answered",
-    "popularityScore": 0,
-    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-    "postedUserFirstName": "Diksha",
-    "postedUserLastName": "Jadhav",
-    "tags": [
-      "hyperlink",
-      "Selenium"
-    ],
-    "express": false,
-    "favourite": true,
-    "sharing": false,
-    "sharedId": 2481,
-    "sharedWith": [
-      {
-        "userId": null,
-        "firstName": "Diksha",
-        "lastName": "Jadhav",
-        "email": "diksha.jadhav@digitalmain.com",
-        "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "userUuidBin": "0+3HG7gUQ/msE4QvITBxrA==",
-        "userStatus": null,
-        "orgId": null,
-        "modifiedDate": null,
-        "id": null,
-        "password": null,
-        "createdDate": null,
-        "newQuestion": null,
-        "expertAnswered": null,
-        "anotherExpertAnswered": null,
-        "seekerRated": null,
-        "questionShared": null,
-        "newExpQuestion": null,
-        "phoneNumber": null,
-        "token": null,
-        "expDate": null,
-        "tourFlag": null,
-        "accountnonlocked": null,
-        "title": null,
-        "timezone": null,
-        "locale": null,
-        "department": null,
-        "costCenter": null,
-        "country": null,
-        "zipcode": null,
-        "userType": null,
-        "seekerIdentity": null,
-        "expertScore": null,
-        "reroute": null
-      },
-      {
-        "userId": null,
-        "firstName": "Sally",
-        "lastName": "Garcia",
-        "email": "akash.kalsare@digitalmain.com",
-        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-        "userUuidBin": "BWFmvfAFSrSqrKbNO0zhaA==",
-        "userStatus": null,
-        "orgId": null,
-        "modifiedDate": null,
-        "id": null,
-        "password": null,
-        "createdDate": null,
-        "newQuestion": null,
-        "expertAnswered": null,
-        "anotherExpertAnswered": null,
-        "seekerRated": null,
-        "questionShared": null,
-        "newExpQuestion": null,
-        "phoneNumber": null,
-        "token": null,
-        "expDate": null,
-        "tourFlag": null,
-        "accountnonlocked": null,
-        "title": null,
-        "timezone": null,
-        "locale": null,
-        "department": null,
-        "costCenter": null,
-        "country": null,
-        "zipcode": null,
-        "userType": null,
-        "seekerIdentity": null,
-        "expertScore": null,
-        "reroute": null
-      }
-    ],
-    "answersList": [
-      {
-        "answerUuid": "f273aa11-816e-4e38-9078-d2221e066d8e",
-        "questionUuid": "079922b0-b82a-4500-87b0-50ea698bac9d",
-        "answer": "<p style=\"font-family: Roboto, sans-serif; margin-bottom: 26px; color: rgb(81, 86, 94); font-size: 16px; line-height: 26px !important;\">driver.findElement(By.linkText(“Today’s deals”)).click();</p><p style=\"font-family: Roboto, sans-serif; margin-bottom: 26px; color: rgb(81, 86, 94); font-size: 16px; line-height: 26px !important;\">The command finds the element using link text and then clicks on that element, where after the user would be redirected to the corresponding page.</p><p style=\"font-family: Roboto, sans-serif; margin-bottom: 26px; color: rgb(81, 86, 94); font-size: 16px; line-height: 26px !important;\">driver.findElement(By.partialLinkText(“Service”)).click();</p><p style=\"font-family: Roboto, sans-serif; margin-bottom: 26px; color: rgb(81, 86, 94); font-size: 16px; line-height: 26px !important;\">The above command finds the element based on the substring of the link provided in the parenthesis and thus partialLinkText() finds the web element. </p><p style=\"font-family: Roboto, sans-serif; margin-bottom: 26px; color: rgb(81, 86, 94); font-size: 16px; line-height: 26px !important;\"><br></p><p style=\"font-family: Roboto, sans-serif; margin-bottom: 26px; color: rgb(81, 86, 94); font-size: 16px; line-height: 26px !important;\"><br></p>",
-        "answerStatus": "&lt;p styl",
-        "answeredTimestamp": 1658146974000,
-        "answerUpdatedTimestamp": 1658146974000,
-        "expertFirstName": "Diksha",
-        "expertLastName": "Jadhav",
-        "expertScore": "7.54",
-        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "rating": 5,
-        "ratingTimestamp": 1658234152000,
-        "voteInfo": {
-          "upvote": null,
-          "upvoteCount": 0,
-          "downvoteCount": 0
-        },
-        "expertRequestUuid": "b483f8bc-fc7d-4f56-9bb2-bb51b1f4bff7",
-        "privacy": false,
-        "popularityScore": 8,
-        "ratingAllowed": false,
-        "viewFeedbackAllowed": false,
-        "alreadyRated": false,
-        "feedbackProvided": false,
-        "internal": false,
-        "curationStatus": "pending",
-        "curationCategory": 3,
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": false,
-        "expiration": "2022-07-11T12:07:27.000+0000",
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 341,
-    "userInitiatedCuration": false,
-    "userType": "Employee",
-    "draftExists": false,
-    "relatedCount": 0,
-    "viewCount": 8
-  },
-  {
-    "questionUuid": "864396e7-1ab0-4d3c-9e54-8f9511b20125",
-    "topicUuid": "6f170901-ad29-42d5-83ae-f69ac4046245",
-    "text": "What is TCP/ip?",
-    "domain": "Capacity & Sizing",
-    "postedTimestamp": 1658145846000,
-    "status": "answered",
-    "popularityScore": 0,
-    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-    "postedUserFirstName": "Diksha",
-    "postedUserLastName": "Jadhav",
-    "tags": [
-      "TCPip"
-    ],
-    "express": true,
-    "favourite": false,
-    "sharing": false,
-    "sharedWith": [],
-    "answersList": [
-      {
-        "answerUuid": "8359cbb2-f5a9-4448-b039-42fd21f28526",
-        "questionUuid": "864396e7-1ab0-4d3c-9e54-8f9511b20125",
-        "answer": "<p style=\"font-size: 16px; line-height: 24px; color: rgb(34, 34, 34); font-family: -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">The Internet Protocol (IP) is the address system of the Internet and has the core function of delivering packets of information from a source device to a target device. IP is the primary way in which network connections are made, and it establishes the basis of the Internet. IP does not handle packet ordering or error checking. Such functionality requires another protocol, typically TCP.</p><p style=\"font-size: 16px; line-height: 24px; color: rgb(34, 34, 34); font-family: -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">The TCP/IP relationship is similar to sending someone a message written on a puzzle through the mail. The message is written down and the puzzle is broken into pieces. Each piece then can travel through a different postal route, some of which take longer than others. When the puzzle pieces arrive after traversing their different paths, the pieces may be out of order. The Internet Protocol makes sure the pieces arrive at their destination address. The TCP protocol can be thought of as the puzzle assembler on the other side who puts the pieces together in the right order, asks for missing pieces to be resent, and lets the sender know the puzzle has been received. TCP maintains the connection with the sender from before the first puzzle piece is sent to after the final piece is sent.</p><p style=\"font-size: 16px; line-height: 24px; color: rgb(34, 34, 34); font-family: -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">IP is a connectionless protocol, which means that each unit of data is individually addressed and routed from the source device to the target device, and the target does not send an acknowledgement back to the source. That’s where protocols such as the Transmission Control Protocol (TCP) come in. TCP is used in conjunction with IP in order to maintain a connection between the sender and the target and to ensure packet order.</p><p style=\"font-size: 16px; line-height: 24px; color: rgb(34, 34, 34); font-family: -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif;\">For example, when an email is sent over TCP, a connection is established and a 3-way handshake is made. First, the source send an SYN “initial request” packet to the target server in order to start the dialogue. Then the target server then sends a SYN-ACK packet to agree to the process. Lastly, the source sends an ACK packet to the target to confirm the process, after which the message contents can be sent. The email message is ultimately broken down into packets before each packet is sent out into the Internet, where it traverses a series of gateways before arriving at the target device where the group of packets are reassembled by TCP into the original contents of the email.</p>",
-        "answerStatus": "<p style=\"",
-        "answeredTimestamp": 1658146201000,
-        "answerUpdatedTimestamp": 1658146201000,
-        "expertFirstName": "Diksha",
-        "expertLastName": "Jadhav",
-        "expertScore": "7.54",
-        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "rating": 4,
-        "ratingTimestamp": 1658146242000,
-        "voteInfo": {
-          "upvote": null,
-          "upvoteCount": 1,
-          "downvoteCount": 0
-        },
-        "expertRequestUuid": "9a9a0353-be2c-4f9f-89cd-b278bd681603",
-        "privacy": false,
-        "popularityScore": 9,
-        "ratingAllowed": false,
-        "viewFeedbackAllowed": false,
-        "alreadyRated": false,
-        "feedbackProvided": false,
-        "internal": false,
-        "curationStatus": "curated",
-        "confidence": false,
-        "userInitiatedCuration": true,
-        "vizAnswer": false,
-        "expiration": "2023-07-18T00:00:00.000+0000",
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 341,
-    "userInitiatedCuration": false,
-    "userType": "Employee",
-    "draftExists": false,
-    "relatedCount": 0,
-    "viewCount": 9
-  },
-  {
-    "questionUuid": "191b0730-2fa0-4fd2-8c39-97407e725c22",
-    "topicUuid": "a064cb9c-2c0f-473b-90ff-64d7072dfd76",
-    "text": "What is email logo one?",
-    "domain": "Capacity & Sizing",
-    "postedTimestamp": 1658143835000,
-    "status": "answered",
-    "popularityScore": 0,
-    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-    "postedUserFirstName": "Diksha",
-    "postedUserLastName": "Jadhav",
-    "tags": [
-      "logo",
-      "email"
-    ],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedId": 2479,
+    "sharedId": 2495,
     "sharedWith": [
       {
         "userId": null,
@@ -568,14 +54,218 @@
         "seekerIdentity": null,
         "expertScore": null,
         "reroute": null
+      }
+    ],
+    "answersList": [
+      {
+        "answerUuid": "a9c9f5c2-67f7-4038-b178-d9ce4b884202",
+        "questionUuid": "fd5281fa-d296-4225-ad5c-ed88057ca633",
+        "answer": "Ans Check",
+        "answerStatus": "Ans Check",
+        "answeredTimestamp": 1658901321000,
+        "answerUpdatedTimestamp": 1658901321000,
+        "expertFirstName": "Mukul",
+        "expertLastName": "Kale",
+        "expertScore": "7.10",
+        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 4,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "ddc803de-e34f-4b8b-b75f-0949c7ba4640",
+        "privacy": false,
+        "popularityScore": 2,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-07-27T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
       },
       {
+        "answerUuid": "788f300c-2275-4a35-b77a-a59903787629",
+        "questionUuid": "fd5281fa-d296-4225-ad5c-ed88057ca633",
+        "answer": "<span style=\"color: rgb(32, 33, 36); font-family: arial, sans-serif; font-size: 16px;\">A namespace is </span><b style=\"color: rgb(32, 33, 36); font-family: arial, sans-serif; font-size: 16px;\">a collection of currently defined symbolic names along with information about the object that each name references</b><span style=\"color: rgb(32, 33, 36); font-family: arial, sans-serif; font-size: 16px;\">.</span>",
+        "answerStatus": "<span styl",
+        "answeredTimestamp": 1657890293000,
+        "answerUpdatedTimestamp": 1657890293000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.60",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "rating": 5,
+        "ratingTimestamp": 1657890382000,
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "f2945561-9ab0-481d-899a-4016f2cc5ff3",
+        "privacy": false,
+        "popularityScore": 2,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-07-15T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      },
+      {
+        "answerUuid": "d1437f2d-0b0c-480a-97e1-79e157e51942",
+        "questionUuid": "fd5281fa-d296-4225-ad5c-ed88057ca633",
+        "answer": "python namespace<div>python namespace</div>",
+        "answerStatus": "python nam",
+        "answeredTimestamp": 1657890193000,
+        "answerUpdatedTimestamp": 1657890193000,
+        "expertFirstName": "Tejal",
+        "expertLastName": "Kunjir",
+        "expertScore": "7.36",
+        "expertUuid": "f18064df-ae00-425f-8fea-50f5ee75e8d1",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 5,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 5,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 5,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "99eec9eb-b083-40e3-8358-9545602489d2",
+        "privacy": false,
+        "popularityScore": 2,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-07-15T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 353,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 1,
+    "viewCount": 2
+  },
+  {
+    "questionUuid": "861131e5-1f50-46b9-847e-eada74a0fb2e",
+    "topicUuid": "1cc14fbb-bb95-44de-bd87-9e246111a774",
+    "text": "What is cross browser testing?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1658830646000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      "browser",
+      "testing",
+      "cross"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedId": 2522,
+    "sharedWith": [
+      {
         "userId": null,
-        "firstName": "Diksha",
-        "lastName": "Jadhav",
-        "email": "diksha.jadhav@digitalmain.com",
-        "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "userUuidBin": "0+3HG7gUQ/msE4QvITBxrA==",
+        "firstName": "Sally",
+        "lastName": "Garcia",
+        "email": "akash.kalsare@digitalmain.com",
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "userUuidBin": "BWFmvfAFSrSqrKbNO0zhaA==",
         "userStatus": null,
         "orgId": null,
         "modifiedDate": null,
@@ -608,15 +298,86 @@
     ],
     "answersList": [
       {
-        "answerUuid": "f2fe716e-0e93-483d-b179-78f82d9e0f7d",
-        "questionUuid": "191b0730-2fa0-4fd2-8c39-97407e725c22",
-        "answer": "email test",
-        "answerStatus": "email test",
-        "answeredTimestamp": 1658143929000,
-        "answerUpdatedTimestamp": 1658145762000,
+        "answerUuid": "a7de8045-13f4-419b-93b8-4a917a0a9f26",
+        "questionUuid": "861131e5-1f50-46b9-847e-eada74a0fb2e",
+        "answer": "Ans Check edit",
+        "answerStatus": "Ans Check ",
+        "answeredTimestamp": 1658900222000,
+        "answerUpdatedTimestamp": 1658900222000,
+        "expertFirstName": "Mukul",
+        "expertLastName": "Kale",
+        "expertScore": "7.10",
+        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 4,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "151eafa9-41a2-416c-9caf-2775bd8d66b1",
+        "privacy": false,
+        "popularityScore": 3,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-07-27T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [
+          {
+            "name": "ts.jpg",
+            "size": null,
+            "src": null,
+            "type": "image/jpeg",
+            "data": null,
+            "caption": "caption_01",
+            "answerId": null,
+            "objectUrl": "attachments/ts.jpg",
+            "targetStream": null,
+            "metaData": null,
+            "attachmentType": null,
+            "thumbnail": false
+          }
+        ],
+        "threadAttachments": []
+      },
+      {
+        "answerUuid": "f120cfd7-3457-417a-b505-7e063845cec1",
+        "questionUuid": "861131e5-1f50-46b9-847e-eada74a0fb2e",
+        "answer": "Ans Check",
+        "answerStatus": "Ans Check",
+        "answeredTimestamp": 1658838432000,
+        "answerUpdatedTimestamp": 1658838432000,
         "expertFirstName": "Diksha",
         "expertLastName": "Jadhav",
-        "expertScore": "7.54",
+        "expertScore": "7.60",
         "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
         "badges": [
           {
@@ -641,14 +402,393 @@
             "name": "amplified"
           }
         ],
-        "rating": 5,
-        "ratingTimestamp": 1658144306000,
         "voteInfo": {
           "upvote": null,
           "upvoteCount": 0,
           "downvoteCount": 0
         },
-        "expertRequestUuid": "fcbc66ff-a7ce-4270-b4b4-28aa5dc41c49",
+        "expertRequestUuid": "37fdb56c-2470-4f72-8c42-30e45844b9cf",
+        "privacy": false,
+        "popularityScore": 3,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-07-26T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [
+          {
+            "name": "image-7d90b468-4c68-46ff-9d73-b5ba7010675b.jpg",
+            "size": null,
+            "src": null,
+            "type": "image/jpeg",
+            "data": null,
+            "caption": "Caption",
+            "answerId": null,
+            "objectUrl": "attachments/image-7d90b468-4c68-46ff-9d73-b5ba7010675b.jpg",
+            "targetStream": null,
+            "metaData": null,
+            "attachmentType": null,
+            "thumbnail": false
+          }
+        ],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 353,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 0,
+    "viewCount": 3
+  },
+  {
+    "questionUuid": "76dc458d-de29-4a43-85a4-c52b7e29221e",
+    "topicUuid": "ba294a73-f17f-4235-a02d-1af781bd4551",
+    "text": "What are the features of SOAP?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1658896337000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      "features",
+      "SOAP"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "11e710d1-07bc-4275-9b36-fd0dbfc1cc3a",
+        "questionUuid": "76dc458d-de29-4a43-85a4-c52b7e29221e",
+        "answer": "Following are some important features of SOAP. \n1.It is a communication protocol designed to communicate via Internet. It can extend HTTP for XML messaging.\n2.It provides data transport for Web services. It can exchange complete documents or call a remote procedure. It can be used for broadcasting a message. It is both platform and language independent. \n3.It is the XML way of defining what information is sent and how. It enables client applications to easily connect to remote services and invoke remote methods.\n4.Although SOAP can be used in a variety of messaging systems and can be delivered via a variety of transport protocols, the initial focus of SOAP is remote procedure calls transported via HTTP. Other frameworks such as CORBA, DCOM, and Java RMI provide similar functionality to SOAP, but SOAP messages are written entirely in XML and are therefore uniquely platform-and language-independent.",
+        "answerStatus": "Following ",
+        "answeredTimestamp": 1658898150000,
+        "answerUpdatedTimestamp": 1658898150000,
+        "expertFirstName": "Mukul",
+        "expertLastName": "Kale",
+        "expertScore": "7.10",
+        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 4,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "1a15a67e-2384-476d-afa9-652fe7551a84",
+        "privacy": false,
+        "popularityScore": 3,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-07-27T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [
+          {
+            "name": "wellarchitected-framework.pdf",
+            "size": null,
+            "src": null,
+            "type": "application/pdf",
+            "data": null,
+            "caption": "caption_01",
+            "answerId": null,
+            "objectUrl": "attachments/wellarchitected-framework.pdf",
+            "targetStream": null,
+            "metaData": null,
+            "attachmentType": null,
+            "thumbnail": false
+          }
+        ],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 353,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 2,
+    "viewCount": 3
+  },
+  {
+    "questionUuid": "b0970f8e-9a0b-4778-8945-94b32ca8d97d",
+    "topicUuid": "ea384d8e-1693-4e1b-bdaf-0bec81ed002a",
+    "text": "what is docker?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1658749230000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+    "postedUserFirstName": "Sally",
+    "postedUserLastName": "Garcia",
+    "tags": [
+      "docker"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "be0edb81-e7c7-4a6c-b96a-1028d0a884da",
+        "questionUuid": "b0970f8e-9a0b-4778-8945-94b32ca8d97d",
+        "answer": "Docs takes away repetative, mundane used throught the development lifecycle for fast, easy and portable application development.",
+        "answerStatus": "Docs takes",
+        "answeredTimestamp": 1658832078000,
+        "answerUpdatedTimestamp": 1658832078000,
+        "expertFirstName": "swati.bhor",
+        "expertLastName": "",
+        "expertScore": "8.09",
+        "expertUuid": "011832be-626f-40f3-8e1c-2e493777adb6",
+        "badges": [],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 1,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "e625cb8a-9ba6-4c8f-b06d-6e052dcff727",
+        "privacy": false,
+        "popularityScore": 11,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": true,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-07-26T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 353,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 0,
+    "viewCount": 11
+  },
+  {
+    "questionUuid": "66801ff5-93e9-4dea-9e54-a5c3cd3b0584",
+    "topicUuid": "4019ac76-eab1-4bfa-ad59-a6f5b92a4530",
+    "text": "What is Framework?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1658749043000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      "Framework"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "97cfe1cd-f948-44d2-994d-dc6c29a0f802",
+        "questionUuid": "66801ff5-93e9-4dea-9e54-a5c3cd3b0584",
+        "answer": "<span style=\"color: rgb(51, 51, 51); font-family: source-sans-pro, helvetica; font-size: 16px;\">Selenium Framework is a suite of automation testing tools that is based on the JavaScript framework. It could run the tests directly on the target browser, drive the interactions on the required web page and rerun them without any manual input.</span><div><span style=\"color: rgb(51, 51, 51); font-family: source-sans-pro, helvetica; font-size: 16px;\"><br></span></div><div contentEditable=\"false\" id=\"inlineimages\" style=\"width:100px;height:100px;\">97cfe1cd-f948-44d2-994d-dc6c29a0f802_0</div>",
+        "answerStatus": "<span styl",
+        "answeredTimestamp": 1658749233000,
+        "answerUpdatedTimestamp": 1658816807000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.60",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 1,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "611cf5dd-9e0d-4797-8243-b09c5bd6ee88",
+        "privacy": false,
+        "popularityScore": 15,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-07-25T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 353,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 0,
+    "viewCount": 15
+  },
+  {
+    "questionUuid": "5d107cd8-4bc3-4407-9fb5-93a4af033cd1",
+    "topicUuid": "4782285a-eade-47b9-b021-b580b720f99e",
+    "text": "what is node?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1658816475000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+    "postedUserFirstName": "Sally",
+    "postedUserLastName": "Garcia",
+    "tags": [],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedId": 2520,
+    "sharedWith": [
+      {
+        "userId": null,
+        "firstName": "Sally",
+        "lastName": "Garcia",
+        "email": "akash.kalsare@digitalmain.com",
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "userUuidBin": "BWFmvfAFSrSqrKbNO0zhaA==",
+        "userStatus": null,
+        "orgId": null,
+        "modifiedDate": null,
+        "id": null,
+        "password": null,
+        "createdDate": null,
+        "newQuestion": null,
+        "expertAnswered": null,
+        "anotherExpertAnswered": null,
+        "seekerRated": null,
+        "questionShared": null,
+        "newExpQuestion": null,
+        "phoneNumber": null,
+        "token": null,
+        "expDate": null,
+        "tourFlag": null,
+        "accountnonlocked": null,
+        "title": null,
+        "timezone": null,
+        "locale": null,
+        "department": null,
+        "costCenter": null,
+        "country": null,
+        "zipcode": null,
+        "userType": null,
+        "seekerIdentity": null,
+        "expertScore": null,
+        "reroute": null
+      }
+    ],
+    "answersList": [
+      {
+        "answerUuid": "6851c154-613b-4e11-bb89-e67de97218c3",
+        "questionUuid": "5d107cd8-4bc3-4407-9fb5-93a4af033cd1",
+        "answer": "<span style=\"color: rgb(77, 81, 86); font-family: arial, sans-serif;\">To write JavaScript code that runs directly in a computer process itself instead of in a browser</span>",
+        "answerStatus": "<span styl",
+        "answeredTimestamp": 1658816552000,
+        "answerUpdatedTimestamp": 1658816552000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.60",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "85d48689-18cd-4e53-98e6-c8321a2cb007",
         "privacy": false,
         "popularityScore": 11,
         "ratingAllowed": false,
@@ -660,104 +800,19 @@
         "confidence": false,
         "userInitiatedCuration": false,
         "vizAnswer": false,
+        "expiration": "2023-07-26T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
         "attachments": [],
         "threadAttachments": []
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 341,
+    "totalCount": 353,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
     "relatedCount": 2,
     "viewCount": 11
-  },
-  {
-    "questionUuid": "fc6f55a1-c9f1-4f50-983a-eb67def3fa92",
-    "topicUuid": "10fd1a4d-45fd-4f90-ad42-4e476085883e",
-    "text": "What are test scripts?",
-    "additionalContext": "additional details",
-    "domain": "Capacity & Sizing",
-    "postedTimestamp": 1658144194000,
-    "status": "answered",
-    "popularityScore": 0,
-    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-    "postedUserFirstName": "Mukul",
-    "postedUserLastName": "Kale",
-    "tags": [
-      "test",
-      "scripts"
-    ],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedWith": [],
-    "answersList": [
-      {
-        "answerUuid": "f14b6b82-d48c-4635-b332-128272bfb76c",
-        "questionUuid": "fc6f55a1-c9f1-4f50-983a-eb67def3fa92",
-        "answer": "automation test case written in automation tool is known as test script.",
-        "answerStatus": "automation",
-        "answeredTimestamp": 1658144598000,
-        "answerUpdatedTimestamp": 1658144598000,
-        "expertFirstName": "Sally",
-        "expertLastName": "Garcia",
-        "expertScore": "7.36",
-        "expertUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 3,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 2,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 4,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "voteInfo": {
-          "upvote": null,
-          "upvoteCount": 0,
-          "downvoteCount": 0
-        },
-        "expertRequestUuid": "113c6566-8f8f-448a-bc27-b879b38cbcda",
-        "privacy": false,
-        "popularityScore": 5,
-        "ratingAllowed": false,
-        "viewFeedbackAllowed": false,
-        "alreadyRated": false,
-        "feedbackProvided": false,
-        "internal": false,
-        "curationStatus": "curated",
-        "confidence": false,
-        "userInitiatedCuration": true,
-        "vizAnswer": false,
-        "expiration": "2023-07-18T00:00:00.000+0000",
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 341,
-    "userInitiatedCuration": false,
-    "userType": "Employee",
-    "draftExists": false,
-    "relatedCount": 1,
-    "viewCount": 5
   },
   {
     "questionUuid": "9b93dcaf-510a-4adc-8e1c-9e3740faef30",
@@ -830,7 +885,7 @@
         "answerUpdatedTimestamp": 1656320427000,
         "expertFirstName": "Mukul",
         "expertLastName": "Kale",
-        "expertScore": "7.02",
+        "expertScore": "7.10",
         "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
         "badges": [
           {
@@ -842,7 +897,7 @@
           },
           {
             "expertUuid": null,
-            "level": 4,
+            "level": 3,
             "type": null,
             "email": null,
             "name": "quality"
@@ -865,7 +920,7 @@
         },
         "expertRequestUuid": "2688e864-1820-4100-a34e-1f01423b41a3",
         "privacy": false,
-        "popularityScore": 74,
+        "popularityScore": 97,
         "ratingAllowed": false,
         "viewFeedbackAllowed": false,
         "alreadyRated": false,
@@ -889,7 +944,7 @@
         "answerUpdatedTimestamp": 1656315702000,
         "expertFirstName": "Tejal",
         "expertLastName": "Kunjir",
-        "expertScore": "7.30",
+        "expertScore": "7.36",
         "expertUuid": "f18064df-ae00-425f-8fea-50f5ee75e8d1",
         "badges": [
           {
@@ -924,7 +979,7 @@
         },
         "expertRequestUuid": "59cafbd6-0dce-45ec-b550-60e75da6db08",
         "privacy": false,
-        "popularityScore": 74,
+        "popularityScore": 97,
         "ratingAllowed": false,
         "viewFeedbackAllowed": false,
         "alreadyRated": false,
@@ -935,7 +990,7 @@
         "confidence": false,
         "userInitiatedCuration": true,
         "vizAnswer": false,
-        "expiration": "2023-06-30T00:00:00.000+0000",
+        "expiration": "2023-06-30T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
         "attachments": [
           {
@@ -957,12 +1012,183 @@
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 341,
+    "totalCount": 353,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
     "relatedCount": 1,
-    "viewCount": 74
+    "viewCount": 97
+  },
+  {
+    "questionUuid": "aad7e56c-75a3-44a8-9c54-dcb9fed08c0d",
+    "topicUuid": "cd49b10f-a1be-425f-a573-da3bb8c3c7a4",
+    "text": "how are you?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1655469460000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+    "postedUserFirstName": "Sally",
+    "postedUserLastName": "Garcia",
+    "tags": [],
+    "express": false,
+    "favourite": true,
+    "sharing": false,
+    "sharedId": 2211,
+    "sharedWith": [
+      {
+        "userId": null,
+        "firstName": "Mukul",
+        "lastName": "Kale",
+        "email": "mukul.kale@digitalmain.com",
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "userUuidBin": "PFHQAwVuT8CgV2SGq+f1Yg==",
+        "userStatus": null,
+        "orgId": null,
+        "modifiedDate": null,
+        "id": null,
+        "password": null,
+        "createdDate": null,
+        "newQuestion": null,
+        "expertAnswered": null,
+        "anotherExpertAnswered": null,
+        "seekerRated": null,
+        "questionShared": null,
+        "newExpQuestion": null,
+        "phoneNumber": null,
+        "token": null,
+        "expDate": null,
+        "tourFlag": null,
+        "accountnonlocked": null,
+        "title": null,
+        "timezone": null,
+        "locale": null,
+        "department": null,
+        "costCenter": null,
+        "country": null,
+        "zipcode": null,
+        "userType": null,
+        "seekerIdentity": null,
+        "expertScore": null,
+        "reroute": null
+      }
+    ],
+    "answersList": [
+      {
+        "answerUuid": "2e13a5be-3a8d-4461-9df0-5a2f42c9182c",
+        "questionUuid": "aad7e56c-75a3-44a8-9c54-dcb9fed08c0d",
+        "answer": "<span style=\"color: rgb(51, 51, 51); font-family: hero-new, sans-serif; font-size: 16.2px;\">I am as happy as a tick on a big, fat dog.</span><br>",
+        "answerStatus": "<span styl",
+        "answeredTimestamp": 1655471800000,
+        "answerUpdatedTimestamp": 1655471800000,
+        "expertFirstName": "Manoj",
+        "expertLastName": "Kumar",
+        "expertScore": "8.16",
+        "expertUuid": "af273bdd-cb86-42d4-aac9-35da0b7cedd6",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 7,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 6,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          }
+        ],
+        "voteInfo": {
+          "upvote": true,
+          "upvoteCount": 2,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "71aa0d82-d8dd-444b-8067-1325a68c989f",
+        "privacy": false,
+        "popularityScore": 81,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-06-17T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      },
+      {
+        "answerUuid": "416bc7f3-a7e6-4092-b44b-256df9561830",
+        "questionUuid": "aad7e56c-75a3-44a8-9c54-dcb9fed08c0d",
+        "answer": "I am fine, updated",
+        "answerStatus": "I am fine,",
+        "answeredTimestamp": 1655469575000,
+        "answerUpdatedTimestamp": 1656418584000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "7.60",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 3,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "39f54e57-2080-4543-a083-dc4dcc96a332",
+        "privacy": false,
+        "popularityScore": 81,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-06-28T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 353,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 1,
+    "viewCount": 81
   },
   {
     "questionUuid": "af201475-7743-4085-ba56-0ef54ea3170b",
@@ -1032,7 +1258,7 @@
         "answerUpdatedTimestamp": 1656613793000,
         "expertFirstName": "Ujjawal",
         "expertLastName": "Kriti",
-        "expertScore": "7.42",
+        "expertScore": "7.48",
         "expertUuid": "015195ab-f97d-4d69-a78e-b0c613e45a98",
         "badges": [
           {
@@ -1044,7 +1270,7 @@
           },
           {
             "expertUuid": null,
-            "level": 3,
+            "level": 4,
             "type": null,
             "email": null,
             "name": "quality"
@@ -1064,90 +1290,7 @@
         },
         "expertRequestUuid": "0460d4fa-6b4a-492b-8712-ff966725dedb",
         "privacy": false,
-        "popularityScore": 113,
-        "ratingAllowed": false,
-        "viewFeedbackAllowed": false,
-        "alreadyRated": false,
-        "feedbackProvided": false,
-        "internal": false,
-        "curationStatus": "curated",
-        "curationCategory": 3,
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": false,
-        "expiration": "2023-06-30T00:00:00.000+0000",
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 341,
-    "userInitiatedCuration": false,
-    "userType": "Employee",
-    "draftExists": false,
-    "relatedCount": 1,
-    "viewCount": 113
-  },
-  {
-    "questionUuid": "c72e3471-f97a-4cb4-9e8b-ea10857c9cca",
-    "topicUuid": "0f67af62-6760-43e5-a235-f4288e93e33e",
-    "text": "What is selenium?",
-    "domain": "Quoting & Opportunity",
-    "postedTimestamp": 1654229331000,
-    "status": "answered",
-    "popularityScore": 0,
-    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-    "postedUserFirstName": "Diksha",
-    "postedUserLastName": "Jadhav",
-    "tags": [],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedWith": [],
-    "answersList": [
-      {
-        "answerUuid": "72cf5dd2-6317-43ce-96ef-78a642c89b66",
-        "questionUuid": "c72e3471-f97a-4cb4-9e8b-ea10857c9cca",
-        "answer": "Ans 1 & Ans 2",
-        "answerStatus": "Ans 1 &amp",
-        "answeredTimestamp": 1655707341000,
-        "answerUpdatedTimestamp": 1655707341000,
-        "expertFirstName": "Mukul",
-        "expertLastName": "Kale",
-        "expertScore": "7.02",
-        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 4,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 4,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 3,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "voteInfo": {
-          "upvote": null,
-          "upvoteCount": 0,
-          "downvoteCount": 0
-        },
-        "expertRequestUuid": "947924ec-ec4e-423b-b3df-94c1777c07d4",
-        "privacy": false,
-        "popularityScore": 95,
+        "popularityScore": 132,
         "ratingAllowed": false,
         "viewFeedbackAllowed": false,
         "alreadyRated": false,
@@ -1158,18 +1301,144 @@
         "confidence": false,
         "userInitiatedCuration": true,
         "vizAnswer": false,
-        "expiration": "2023-06-20T00:00:00.000+0000",
+        "expiration": "2023-06-30T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
         "attachments": [],
         "threadAttachments": []
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 341,
+    "totalCount": 353,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "relatedCount": 1,
+    "viewCount": 132
+  },
+  {
+    "questionUuid": "527a1ed2-6161-47d3-8624-d6eee8a03f7a",
+    "topicUuid": "2fd3b8ae-09e4-4c90-9499-89e3800993a1",
+    "text": "What is a bug report?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1650629249000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+    "postedUserFirstName": "Sally",
+    "postedUserLastName": "Garcia",
+    "tags": [
+      "bug",
+      "report"
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedId": 2469,
+    "sharedWith": [
+      {
+        "userId": null,
+        "firstName": "Sally",
+        "lastName": "Garcia",
+        "email": "akash.kalsare@digitalmain.com",
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "userUuidBin": "BWFmvfAFSrSqrKbNO0zhaA==",
+        "userStatus": null,
+        "orgId": null,
+        "modifiedDate": null,
+        "id": null,
+        "password": null,
+        "createdDate": null,
+        "newQuestion": null,
+        "expertAnswered": null,
+        "anotherExpertAnswered": null,
+        "seekerRated": null,
+        "questionShared": null,
+        "newExpQuestion": null,
+        "phoneNumber": null,
+        "token": null,
+        "expDate": null,
+        "tourFlag": null,
+        "accountnonlocked": null,
+        "title": null,
+        "timezone": null,
+        "locale": null,
+        "department": null,
+        "costCenter": null,
+        "country": null,
+        "zipcode": null,
+        "userType": null,
+        "seekerIdentity": null,
+        "expertScore": null,
+        "reroute": null
+      }
+    ],
+    "answersList": [
+      {
+        "answerUuid": "25767286-040e-403e-9d1e-4cc7e840f75b",
+        "questionUuid": "527a1ed2-6161-47d3-8624-d6eee8a03f7a",
+        "answer": "During testing, a tester records their observations, findings, and other information useful to the developers or the management. All this data belongs to a test record, also called a bug report. updated.",
+        "answerStatus": "During tes",
+        "answeredTimestamp": 1650629250000,
+        "answerUpdatedTimestamp": 1658247585000,
+        "expertFirstName": "Sally",
+        "expertLastName": "Garcia",
+        "expertScore": "7.39",
+        "expertUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 2,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 4,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "rating": 5,
+        "ratingTimestamp": 1650629250000,
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 2,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "aaa7f65f-9d97-488c-afb6-3b6e4a620ff3",
+        "privacy": false,
+        "popularityScore": 110,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "alreadyRated": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-07-19T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 353,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
     "relatedCount": 0,
-    "viewCount": 95
+    "viewCount": 110
   }
 ]
