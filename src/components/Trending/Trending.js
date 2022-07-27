@@ -130,11 +130,18 @@ return(
 </div>
 </div>
 <div class="row">
-<div class="col-md-12">
+<div class="col-md-2">
 <div className={styles.tagDomain}>
 <h3>Domain<span className={styles.label}>{question.domain}</span></h3>
 </div>
 </div>
+<div class="col-md-2">
+  <div className={styles.tagDomain}>
+{question.relatedCount > 0 && <h3 className={styles.relatedQuestions}>Related Questions: <span className={styles.relatedCountNumber}>{question.relatedCount}</span></h3>}
+</div>
+</div>
+
+
 </div>
 <div class="row">
 <div class="col-md-10">

@@ -16,7 +16,7 @@ const NavigationBar = () => {
     <a class="navbar-brand" href="#" className={styles.brandImg}><img src={require('../../images/vizerto.png')}></img>
     </a>
     <ul class="navbar-nav ms-auto" className={styles.navigationBar}>
-      <li class="nav-item active">
+      <li class="nav-item active" className={styles.iconCenter}>
       <i class="fa fa-search" aria-hidden="true"></i>
         <a class="nav-link" href="#">Ask a Question <span class="sr-only">(current)</span></a>
       </li>
