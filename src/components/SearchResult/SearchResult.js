@@ -39,27 +39,32 @@ const SearchResult = (props)=>{
       <i class="fa fa-search" aria-hidden="true"></i>
         <a class="nav-link" href="#">Ask a Question <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item">      
       <i class="fa fa-fire" aria-hidden="true"></i> 
       <NavDropdown
-              id={styles.dropdownbasic}
               title="Trending"
               menuVariant="dark"
+              className={styles.TrendingDropdown}
             >
-              
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item ><i class="fa fa-fire" aria-hidden="true"></i> Questions</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                Another action
+              <i class="fa-solid fa-tags"></i> Key Terms
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+            
             </NavDropdown>
-      </li>
+            </li>
       <li class="nav-item">
       <i class="fa fa-question-circle-o"></i>
-        <a class="nav-link" href="#">My Searches</a>
+      <NavDropdown
+              title="My Searches"
+              menuVariant="dark"
+            >
+              <NavDropdown.Item ><i class="fa fa-question-circle-o" aria-hidden="true"></i> Open</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i> Answered
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2"><i class="fa fa-book" aria-hidden="true"></i> History</NavDropdown.Item>
+            </NavDropdown>
       </li>
       <li class="nav-item">
         <div class={styles.fireIcon}>
