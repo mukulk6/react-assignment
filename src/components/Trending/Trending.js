@@ -10,11 +10,10 @@ function TrendData(props)
 Trend.map((trendingData, ind)=>{ 
 return(
 <div key={ind}>            
-<Trend data={trendingData} />
+<Trending renderData={trendingData} />
 </div>
 )
 })}
-
 
 const questionsPerPage = 6;
 let arrayForHoldingQuestions = [];
@@ -30,7 +29,7 @@ const Button = () =>{
   };
 }
 
-const Trending = (props)=> {
+const Trending = ({renderData})=> {
   const [showContent, hideContent] = useState(false);
   const [showShow, setShowShow] = useState(false);
 
@@ -66,7 +65,7 @@ return(
         <div data-toggle="dropdown" class="dropdown-toggle" id="dropdownMenuLink" 
          aria-haspopup="true" aria-expanded="false">
       <i class="fa fa-fire" aria-hidden="true" data-bs-target="#dropdownMenuLink"></i>
-        <Link to = "/trending" element={<Trending />} />Trending
+        Trending
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     <li><a class="dropdown-item" href="#">Action</a></li>
     <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -129,21 +128,15 @@ return(
 <span class="input-group-text" id="basic-addon2">Get Answers</span>
 </div>
 <div class="row">
-<div class="col-md-10">
+<div class="col-md-8">
 <span className={styles.domains}>Domain covered: VSP 5000, E Series (E990,E790,E590), Ops Center, HNAS 5000</span>
 </div>
-<div class="col-md-2">
+<div class="col-md-4">
 <span className={styles.characters}>
   Characters: </span>
   <span className={styles.charAt}>200/200</span> 
   </div>        
-  <span className={styles.domains}>Domain covered: VSP 5000, E Series (E990,E790,E590), Ops Center, HNAS 5000</span>
-</div>
-<div class="col-md-2">
-  <span className={styles.characters}>
-    Characters: </span>
-    <span className={styles.charAt}>200/200</span> 
-    </div>        
+</div>        
 </div>
 </div>
 </div>
@@ -166,25 +159,6 @@ return(
 </div>
 <div class="col-md-3">
 <span id={styles.sortBy}>Sort by:</span>
-  </div>
-  </div>
-  <div class="row">
-    <div className={styles.midBlock}>     
-    <div class="col-md-3">
-      <h3 className={styles.TrendingText}>
-        Trending Questions
-      </h3>
-      
-      </div>
-      
-      <div class="col-md-3">
-        
-<label for="inputPassword2" class="visually-hidden">Password</label>
-<input type="password" class="form-control " id={styles.inputPassword2} placeholder="Search..." />
-<i class="fa-solid fa-magnifying-glass" id={styles.searchIcon}></i>
-</div>
-<div class="col-md-3">
-  <span id={styles.sortBy}>Sort by:</span>
 <select class="form-select" className={styles.sortDropbox} aria-label="Default select example">
 <option selected>Recently Answered</option>
 <option value="1">Oldest (Answered)</option>
@@ -192,10 +166,9 @@ return(
 <option value="3">Oldest asked</option>
 <option value="4">Most Viewed</option>
 </select>
-</div>
+  </div>
 <div class="col-md-3">
 <span id={styles.domain}>Domain:</span>
-  <span id={styles.domain}>Domain:</span>
 <select class="form-select"  aria-label="Default select example">
 <option selected>Open this select menu</option>
 <option value="1">One</option>
@@ -203,10 +176,9 @@ return(
 <option value="3">Three</option>
 </select>
 </div>
-
   </div>
-    </div>
-    
+
+   <div class="row"> 
     {Trend.slice(0,visibleQuestions).map((question)=>
     <div class="row"> 
     <div class="col-md-12" className={styles.questionList}>
@@ -321,6 +293,7 @@ data-holder-rendered="true"></img>
 </div>
 </div>
 )}
+</div>
 <div class="row">
   {setVisibleQuestions.length > visibleQuestions && <button type="button" class="btn btn-success" className={styles.loadMoreButton} onClick={handleClick}>Load More</button>}
 </div>
