@@ -710,3 +710,54 @@ box-shadow: 0px 5px 50px rgb(0 0 0 / 10%);
     text-align: center;
     font-size: 14px;
 }
+
+#dropdownbasic {
+    background-color: transparent;
+    color: #075491;
+    font-size: 12px;
+    outline: none;
+    color: #075491;
+    font-weight: 600;
+    border: none;
+} 
+
+#dropdownbasic:focus 
+{
+outline: none !important;
+}
+
+.TrendingDropdown
+{
+background-color: #fff !important;
+    max-width: 200px;
+    border: 0px;
+    margin-top: 2px;
+    -webkit-transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+
+.dropdown-toggle::after
+{
+    display: none !important;
+}
+
+.loadMoreButton
+{
+background-color: #bedb39 !important;
+    border-color: #bedb39;
+    color: #fff;
+    border-radius: 3px;
+    margin: 0px 3px;
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid transparent;
+    font-size: 14px;
+    height:30px;
+}
+
+.iconCenter
+{
+    margin-left: auto;
+    margin-right: auto;
+}

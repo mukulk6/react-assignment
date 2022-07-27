@@ -4,6 +4,8 @@ import styles from '../Trending/SearchResult.module.css';
 import moment from 'moment';
 import Trend from '../Trending/trending.json';
 import PropTypes from 'prop-types';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import NavigationBar from '../NavigationBar/NavigationBar';
 
 function TrendData(props)
 {
@@ -14,6 +16,8 @@ return(
 </div>
 )
 })}
+
+const regex = /(<([^>]+)>)/ig;
 
 const questionsPerPage = 6;
 let arrayForHoldingQuestions = [];
@@ -45,79 +49,10 @@ const Trending = ({renderData})=> {
     setVisibleQuestions(prevVisibleQuestions => prevVisibleQuestions + 4)
 }
 
+
 return(       
   <div class="container">
-<nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
-  <div class="container" className={styles.containerNav}>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#" className={styles.brandImg}><img src={require('../../images/vizerto.png')}></img>
-    </a>
-    <ul class="navbar-nav ms-auto" className={styles.navigationBar}>
-      <li class="nav-item active">
-      <i class="fa fa-search" aria-hidden="true"></i>
-        <a class="nav-link" href="#">Ask a Question <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <div class="dropdown show" role="button">
-        <div data-toggle="dropdown" class="dropdown-toggle" id="dropdownMenuLink" 
-         aria-haspopup="true" aria-expanded="false">
-      <i class="fa fa-fire" aria-hidden="true" data-bs-target="#dropdownMenuLink"></i>
-        Trending
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-        </div>
-        </div>
-      </li>
-      <li class="nav-item">
-      <i class="fa fa-question-circle-o"></i>
-        <a class="nav-link" href="#">My Searches</a>
-      </li>
-      <li class="nav-item">
-        <div class={styles.fireIcon}>
-        <i class="fa fa-fire"></i>
-      <span>2/3</span>
-      </div>
-      </li>
-      <li class="nav-item">
-        <div className={styles.dropNotification}>
-        <i class="fa fa-bell"></i>
-        </div>
-      </li>
-      <li class="nav-item">
-        <div class="dropdown dropdown-right">
-          <div className={styles.userinfo}>
-            <div class="clearfix">
-            <span>Mukul Kale</span>
-            <img src={require('../../images/profile.jpg')}></img>
-            <select class="form-select form-select-sm" aria-label=".form-select-lg example">
-  <option value="1">Admin</option>
-  <option value="2">CM</option>
-  <option value="3">Expert</option>
-  <option selected value="4">Seeker</option>
-</select>          
-            </div>
-            </div>
-        </div>
-      </li>
-      <li class="nav-item">
-        <div className={styles.username}>
-          <span>Group</span>
-          <select class="form-select form-select-sm" aria-label=".form-select-lg example">
-  <option value="1">Alpha</option>
-  <option value="2">GTech</option>
-  </select>
-        </div>
-      </li>
-    </ul>
-    </div>
-  </div>
-</nav>
+<NavigationBar />
 <div className={styles.searchbar}>
 <div className={styles.midcontainer}>
 <div class="container">
@@ -211,7 +146,7 @@ return(
 
 <div class="row">
 <div class="col-md-12">
-{question.answersList && question.answersList.map((que)=>{return(
+{question.answersList && question.answersList.map((que)=>{const result = que.answer.replace(regex, '');return(
 <div className={styles.answerDiv}>
 <div className={styles.expertInfo}>
 <img class="rounded-circle" alt="40x40" src={require('../../images/sample.jpg')}
@@ -243,7 +178,7 @@ data-holder-rendered="true"></img>
     </span>
     <div class='row'>
       <div className={styles.answerBlock}>
-<p>{((que.answer).length >= 550 && <div className={styles.fader} show={showShow} ><div className={styles.contentVar} ><p>{que.answer}</p></div></div>) }{(que.answer).length < 550 && <p>{que.answer}</p>}</p>
+<p>{((que.answer).length >= 550 && <div className={styles.fader} show={showShow} ><div className={styles.contentVar} ><p>{result}</p></div></div>) }{(que.answer).length < 550 && <p>{que.answer}</p>}</p>
 <div class="row">
 {(que.answer).length >= 550 && <span className={styles.showMore} role="button" type="button" onClick={toggleShow}><i class="fa-solid fa-angle-down"></i>Show More</span>}
 </div>
@@ -294,7 +229,7 @@ data-holder-rendered="true"></img>
 )}
 </div>
 <div class="row">
-  {<button type="button" class="btn btn-success" className={styles.loadMoreButton} onClick={handleClick}>Load More</button>}
+  <button type="button" class="btn btn-success" className={styles.loadMoreButton} onClick={handleClick}>Load More</button>
 </div>
 </div>
 )}

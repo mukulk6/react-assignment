@@ -36,7 +36,7 @@ const SearchResult = (props)=>{
     </a>
     <ul class="navbar-nav ms-auto" className={styles.navigationBar}>
       <li class="nav-item active">
-      <i class="fa fa-search" aria-hidden="true"></i>
+      <i class="fa fa-search" aria-hidden="true" className={styles.iconCenter}></i>
         <a class="nav-link" href="#">Ask a Question <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">      
