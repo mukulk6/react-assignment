@@ -216,10 +216,7 @@ data-holder-rendered="true"></img>
 <div class="col-md-9 float-right">
 <div class="pull-right">
 <div>
-{que.voteInfo.upvoteCount > 0 ? <span className={styles.upvoteButton}><i class="fa-solid fa-thumbs-up"></i><span className={styles.upvoteLikeText}>Like</span></span> : <span className={styles.upvoteButton}><i class="fa-solid fa-thumbs-up"></i><span className={styles.upvoteLikeText}>{que.voteInfo.upvoteCount}</span></span>  }
-<div className={styles.helpfulButton}>
-<span>Helpful<img src={require('../../images/helpful.png')}></img></span>
-</div>
+{que.voteInfo.upvoteCount > 0 ? <span className={styles.upvoteButton}><i class="fa-solid fa-thumbs-up"></i><span className={styles.upvoteLikeText}> Like</span></span> : <span className={styles.upvoteButton}><i class="fa-solid fa-thumbs-up"></i><span className={styles.upvoteLikeText}>{que.voteInfo.upvoteCount}</span></span>  }
 </div>
 </div>
 </div>

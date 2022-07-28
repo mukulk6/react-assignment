@@ -785,3 +785,13 @@ background-color: #bedb39 !important;
     vertical-align: baseline;
     border-radius: 0.25em;
 }
+
+.upvoteButton
+{
+    color: #bdbdbd;    
+}
+
+.upvoteButton > i
+{
+    cursor: pointer;
+}
