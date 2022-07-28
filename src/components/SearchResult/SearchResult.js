@@ -50,7 +50,7 @@ const SearchResult = (props)=>{
 </div>
 <div class="col-md-2">
 <div className={styles.tagsinQue}>
-  {(props.data.tags).length!=null && <h3>Tags:<span className={styles.tagLabel}>{props.data.tags}</span></h3>}
+{(props.data.tags).length > 0 && <h3>Tags: {props.data.tags.map((tag)=>{return(<span className={styles.tagLabel}>{tag}</span>)})}</h3>}
 </div>
 </div>
 </div>
@@ -116,7 +116,6 @@ const SearchResult = (props)=>{
     <span>Helpful<img src={require('../../images/helpful.png')}></img></span>
     </div>
   </div>
-  <ModalReusable />
       </div>
   </div>
 </div>

@@ -1,12 +1,18 @@
 import React from "react";
 import styles from '../Trending/SearchResult.module.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { SeekerModal, ModalHead } from "../Modal/Modal";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const NavigationBar = () => {
-    return(
+  const [modalShow, setModalShow] = React.useState(false);
+  const [show, setShow] = React.useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);  
+  return(
         <nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
   <div class="container" className={styles.containerNav}>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +53,15 @@ const NavigationBar = () => {
               <NavDropdown.Item href="#action/3.2"><i class="fa fa-book" aria-hidden="true"></i> History</NavDropdown.Item>
             </NavDropdown>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" onClick={() => setModalShow(true)}>
+        <SeekerModal  show={modalShow} onHide={()=>setModalShow(false)}/>
+
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <a class="nav-link" href="#">Awards <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" onClick={handleShow} handleShow={handleShow}>
+        <ModalHead  show={show} onHide={handleClose} handleClose={handleClose}/>
+
         <div class={styles.fireIcon}>
         <i class="fa fa-fire"></i>
       <span>2/3</span>
