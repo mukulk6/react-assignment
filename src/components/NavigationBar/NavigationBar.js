@@ -1,7 +1,7 @@
 import React from "react";
 import styles from '../Trending/SearchResult.module.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { SeekerModal, ModalHead } from "../Modal/Modal";
+import { SeekerModal, ModalHead, SmallModal } from "../Modal/Modal";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -9,9 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const NavigationBar = () => {
   const [modalShow, setModalShow] = React.useState(false);
   const [show, setShow] = React.useState(false);
+  const [lgShow, setLgShow] = React.useState(false);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);  
+  const handleShow = () => setShow(true); 
   return(
         <nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
   <div class="container" className={styles.containerNav}>
@@ -59,15 +60,16 @@ const NavigationBar = () => {
       <i class="fa fa-star" aria-hidden="true"></i>
       <a class="nav-link" href="#">Awards <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item" onClick={handleShow} handleShow={handleShow}>
-        <ModalHead  show={show} onHide={handleClose} handleClose={handleClose}/>
+      <li class="nav-item" onClick={handleShow}>
+        <ModalHead show={show} onHide={handleClose} />
 
         <div class={styles.fireIcon}>
         <i class="fa fa-fire"></i>
       <span>2/3</span>
       </div>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" onClick={() => setLgShow(true)}>
+        <SmallModal show={lgShow} onHide={() => setLgShow(false)}/>
         <div className={styles.dropNotification}>
         <i class="fa fa-bell"></i>
         </div>

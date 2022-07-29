@@ -66,7 +66,7 @@ export function SeekerModal(props)
   );
 }
 
-export function ModalHead({handleShow, handleClose,onHide,show})
+export function ModalHead(props)
 {
   return(
     <Modal>
@@ -93,13 +93,33 @@ export function ModalHead({handleShow, handleClose,onHide,show})
       </Form>
     </Modal.Body>
     <Modal.Footer>
-      <Button variant="secondary" onClick={handleShow}>
+      <Button variant="secondary" onClick={props.handleShow}>
         Close
       </Button>
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="primary" onClick={props.handleShow}>
         Save Changes
       </Button>
     </Modal.Footer>
+  </Modal>
+  )
+}
+
+export function SmallModal(props)
+{
+  
+  return(
+  <Modal
+  {...props}
+    size="lg"
+    
+    aria-labelledby="example-modal-sizes-title-lg"
+  >
+    <Modal.Header closeButton>
+      <Modal.Title id="example-modal-sizes-title-lg">
+        Large Modal
+      </Modal.Title>
+    </Modal.Header>
+    <Modal.Body>...</Modal.Body>
   </Modal>
   )
 }
