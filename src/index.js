@@ -1,18 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import  App  from './App';
+import App from './App';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Trending from './components/Trending/Trending';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <React.StrictMode>
+  <React.StrictMode>
     <BrowserRouter>
-    <Routes>
-    <Route path="/" element={<App />} />
-    <Route path="/trending" element={<Trending />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/trending" element={<Trending />} />
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );

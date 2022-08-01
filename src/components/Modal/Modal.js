@@ -115,7 +115,7 @@ export function SmallModal(props) {
           Large Modal
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body>...</Modal.Body>
+      <Modal.Body>{props.body}</Modal.Body>
     </Modal>
   )
 }

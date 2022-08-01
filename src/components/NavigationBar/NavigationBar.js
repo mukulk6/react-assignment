@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../Trending/SearchResult.module.css';
+import styles from '../NavigationBar/SearchResult.module.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { SeekerModal, ModalHead, SmallModal } from "../Modal/Modal";
 import 'bootstrap/dist/css/bootstrap.css';
@@ -69,7 +69,7 @@ const NavigationBar = () => {
               </div>
             </li>
             <li class="nav-item" onClick={() => setLgShow(true)}>
-              <SmallModal show={lgShow} onHide={() => setLgShow(false)} />
+              <SmallModal show={lgShow} onHide={() => setLgShow(false)}/>
               <div className={styles.dropNotification}>
                 <i class="fa fa-bell"></i>
               </div>

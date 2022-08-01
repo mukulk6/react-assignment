@@ -1,6 +1,5 @@
 body{
     font-family: 'Poppins', 'Lato', sans-serif;
-    padding-top: 53px;
 }
 .searchOutline
 {
@@ -304,6 +303,7 @@ a.brandImg img
     font-family: 'Poppins',sans-serif;
     font-size: 12px;
     margin-bottom: -15px;
+    padding:5px 8px;
 }
 
 .navigationBar a
@@ -321,6 +321,15 @@ nav {
     background-color: #fff;
     padding-top:0px !important;
     padding-bottom: 0px !important;
+    height:52px;
+}
+
+
+.containerNav
+{
+margin-left:15px;
+padding-left: 15px;
+width: 100%;
 }
 
 .fireIcon > i
@@ -339,9 +348,19 @@ color: #fd7400;
     color: #075491;
     font-weight: bold;
     padding: 0 3px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
+.fireIcon
+{
+    position: relative;
+    top:-7px;
+}
+
+.navigationBar
+{
+    padding-bottom: 10px;
+}
 .navigationBar > li > i
 {
     font-size: 16px;
@@ -357,7 +376,8 @@ color: #fd7400;
 .dropNotification
 {
     color:#075491;
-    padding-left:15px;
+    position: relative;
+    top:-10px;
 }
 
 .userinfo
@@ -740,4 +760,50 @@ background-color: #bedb39 !important;
     color: #fff;
     border-radius: 3px;
     margin: 0px 3px;
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid transparent;
+    font-size: 14px;
+    height:30px;
+}
+
+.iconCenter
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.relatedQuestion
+{
+    color: #949494;
+    font-size: 12px;
+    margin-top: 0px !important;
+}
+
+.relatedCountNumber
+{
+    margin-right: 2px;
+    background-color: green;
+    cursor: pointer;
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+
+.upvoteButton
+{
+    color: #bdbdbd;    
+}
+
+.upvoteButton > i
+{
+    cursor: pointer;
 }
