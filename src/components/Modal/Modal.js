@@ -1,4 +1,4 @@
-import React, { Component,   useState  } from 'react';
+import React, { Component, useState } from 'react';
 import PropTypes from 'prop-types';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -9,16 +9,16 @@ import '../../App';
 import SearchResult from '../SearchResult/SearchResult';
 import Data from '../SearchResult/data.json';
 
-export function ModalReusable ({text}) {
-    const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+export function ModalReusable({ text }) {
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
-return(
-<>  
-<Button variant="primary" onClick={handleShow}>
-Launch demo modal
-</Button>
+  return (
+    <>
+      <Button variant="primary" onClick={handleShow}>
+        Launch demo modal
+      </Button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>{text}</Modal.Title>
@@ -34,12 +34,11 @@ Launch demo modal
         </Modal.Footer>
       </Modal>
     </>
-)
+  )
 }
 
-export function SeekerModal(props)
-{
-  return(
+export function SeekerModal(props) {
+  return (
     <Modal
       {...props}
       size="lg"
@@ -66,65 +65,59 @@ export function SeekerModal(props)
   );
 }
 
-export function ModalHead(props)
-{
-  return(
+export function ModalHead(props) {
+  return (
     <Modal>
-    <Modal.Header closeButton>
-      <Modal.Title>Modal heading</Modal.Title>
-    </Modal.Header>
-    <Modal.Body>
-      <Form>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control
-            type="email"
-            placeholder="name@example.com"
-            autoFocus
-          />
-        </Form.Group>
-        <Form.Group
-          className="mb-3"
-          controlId="exampleForm.ControlTextarea1"
-        >
-          <Form.Label>Example textarea</Form.Label>
-          <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-      </Form>
-    </Modal.Body>
-    <Modal.Footer>
-      <Button variant="secondary" onClick={props.handleShow}>
-        Close
-      </Button>
-      <Button variant="primary" onClick={props.handleShow}>
-        Save Changes
-      </Button>
-    </Modal.Footer>
-  </Modal>
+      <Modal.Header closeButton>
+        <Modal.Title>Modal heading</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <Form>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Label>Email address</Form.Label>
+            <Form.Control
+              type="email"
+              placeholder="name@example.com"
+              autoFocus
+            />
+          </Form.Group>
+          <Form.Group
+            className="mb-3"
+            controlId="exampleForm.ControlTextarea1"
+          >
+            <Form.Label>Example textarea</Form.Label>
+            <Form.Control as="textarea" rows={3} />
+          </Form.Group>
+        </Form>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={props.handleShow}>
+          Close
+        </Button>
+        <Button variant="primary" onClick={props.handleShow}>
+          Save Changes
+        </Button>
+      </Modal.Footer>
+    </Modal>
   )
 }
 
-export function SmallModal(props)
-{
-  
-  return(
-  <Modal
-  {...props}
-    size="lg"
-    
-    aria-labelledby="example-modal-sizes-title-lg"
-  >
-    <Modal.Header closeButton>
-      <Modal.Title id="example-modal-sizes-title-lg">
-        Large Modal
-      </Modal.Title>
-    </Modal.Header>
-    <Modal.Body>...</Modal.Body>
-  </Modal>
+export function SmallModal(props) {
+
+  return (
+    <Modal
+      {...props}
+      size="lg"
+      aria-labelledby="example-modal-sizes-title-lg"
+    >
+      <Modal.Header closeButton>
+        <Modal.Title id="example-modal-sizes-title-lg">
+          Large Modal
+        </Modal.Title>
+      </Modal.Header>
+      <Modal.Body>...</Modal.Body>
+    </Modal>
   )
 }
-    
-  
-
 
 export default ModalReusable;
