@@ -345,6 +345,7 @@ color: #fd7400;
 .navigationBar > li > i
 {
     font-size: 16px;
+    text-align: center;
 }
 
 .dropNotification > i

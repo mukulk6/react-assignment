@@ -304,6 +304,7 @@ a.brandImg img
     font-size: 12px;
     margin-bottom: -15px;
     padding:5px 8px;
+    text-align: center;
 }
 
 .navigationBar a
@@ -770,8 +771,8 @@ background-color: #bedb39 !important;
 
 .iconCenter
 {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .relatedQuestion

@@ -14,8 +14,7 @@ const NavigationBar = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
-      <div class="container" className={styles.containerNav}>
+    <nav class="navbar navbar-default navbar-light navbar-right bg-light navbar-expand-lg fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,7 +26,7 @@ const NavigationBar = () => {
               <i class="fa fa-search" aria-hidden="true"></i>
               <a class="nav-link" href="#">Ask a Question <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" className={styles.iconCenter}>
               <i class="fa fa-fire" aria-hidden="true"></i>
               <NavDropdown
                 title="Trending"
@@ -41,7 +40,7 @@ const NavigationBar = () => {
 
               </NavDropdown>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" className={styles.iconCenter}>
               <i class="fa fa-question-circle-o"></i>
               <NavDropdown
                 title="My Searches"
@@ -54,13 +53,13 @@ const NavigationBar = () => {
                 <NavDropdown.Item href="#action/3.2"><i class="fa fa-book" aria-hidden="true"></i> History</NavDropdown.Item>
               </NavDropdown>
             </li>
-            <li class="nav-item" onClick={() => setModalShow(true)}>
+            <li class="nav-item" onClick={() => setModalShow(true)} className={styles.iconCenter}>
               <SeekerModal show={modalShow} onHide={() => setModalShow(false)} />
 
               <i class="fa fa-star" aria-hidden="true"></i>
               <a class="nav-link" href="#">Awards <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item" onClick={handleShow}>
+            <li class="nav-item" onClick={handleShow} className={styles.className}>
               <ModalHead show={show} onHide={handleClose} />
 
               <div class={styles.fireIcon}>
@@ -68,7 +67,7 @@ const NavigationBar = () => {
                 <span>2/3</span>
               </div>
             </li>
-            <li class="nav-item" onClick={() => setLgShow(true)}>
+            <li class="nav-item" onClick={() => setLgShow(true)} className={styles.iconCenter}>
               <SmallModal show={lgShow} onHide={() => setLgShow(false)}/>
               <div className={styles.dropNotification}>
                 <i class="fa fa-bell"></i>
@@ -101,7 +100,7 @@ const NavigationBar = () => {
             </li>
           </ul>
         </div>
-      </div>
+      
     </nav>
   )
 }
