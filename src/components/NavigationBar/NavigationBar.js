@@ -15,6 +15,7 @@ const NavigationBar = () => {
   const handleShow = () => setShow(true);
   return (
     <nav class="navbar navbar-default navbar-light navbar-right bg-light navbar-expand-lg fixed-top">
+      <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -68,7 +69,7 @@ const NavigationBar = () => {
               </div>
             </li>
             <li class="nav-item" onClick={() => setLgShow(true)} className={styles.iconCenter}>
-              <SmallModal show={lgShow} onHide={() => setLgShow(false)}/>
+              <SmallModal show={lgShow} onHide={() => setLgShow(false)} />
               <div className={styles.dropNotification}>
                 <i class="fa fa-bell"></i>
               </div>
@@ -100,7 +101,7 @@ const NavigationBar = () => {
             </li>
           </ul>
         </div>
-      
+      </div>
     </nav>
   )
 }
