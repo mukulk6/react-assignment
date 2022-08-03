@@ -53,11 +53,12 @@ const Trending = ({ renderData }) => {
 
 
   return (
-    <div class="container">
+  <div class="container">
       <NavigationBar />
       <div class="container-fluid">
       <div className={styles.searchbar}>
         <div className={styles.midcontainer}>
+          <div class="container">
             <div class="row">
               <div class="input-group mb-3" className={styles.buttonAns}>
                 <div class="input-group mb-3" className={styles.buttonAns}>
@@ -78,6 +79,7 @@ const Trending = ({ renderData }) => {
             </div>
 
         </div>
+      </div>
       </div>
       </div>
       <div class="row">
@@ -239,7 +241,7 @@ const Trending = ({ renderData }) => {
       <div class="row">
         <button type="button" class="btn btn-success" className={styles.loadMoreButton} onClick={handleClick}>Load More</button>
       </div>
-    </div>
+      </div>
   )
 }
 
