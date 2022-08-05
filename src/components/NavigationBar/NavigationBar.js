@@ -29,10 +29,9 @@ const NavigationBar = () => {
             </li>
             <li class="nav-item" className={styles.iconCenter}>
               <i class="fa fa-fire" aria-hidden="true"></i>
-              <NavDropdown
-                title="Trending"
+               <NavDropdown
                 menuVariant="dark"
-                className={styles.TrendingDropdown}
+                title="Trending"
               >
                 <NavDropdown.Item ><i class="fa fa-fire" aria-hidden="true"></i> Questions</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
