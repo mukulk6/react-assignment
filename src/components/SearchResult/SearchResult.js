@@ -114,7 +114,7 @@ const SearchResult = (props) => {
                       <div class="col-md-9 float-right">
                         <div class="pull-right">
                           <div className={styles.helpfulButton}>
-                            <span>Helpful<img src={require('../../images/helpful.png')}></img></span>
+                            <div class="btn">Helpful<img src={require('../../images/helpful.png')}></img></div>
                           </div>
                         </div>
                       </div>
